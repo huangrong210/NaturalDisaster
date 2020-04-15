@@ -190,7 +190,7 @@
 @*文章详情E*@
 @*提交发表评论S*@
 <div>
-    <form asp-controller="Home" asp-action="NewForumMsg" name="form1" id="form1" method="post">
+    <form asp-controller="Home" asp-action="NewForumMsg" name="form1" id="form1" method="post" onsubmit="return IsUserLogin();">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <input asp-for="userID" type="hidden" class="form-control" value="@User.FindFirstValue("ID")" />
         <input name="essayID" type="hidden" class="form-control" value="@Html.DisplayFor(model => model.ID)" />
@@ -210,7 +210,7 @@
         }
         else
         {
-            <a asp-controller="Account" asp-action="Login" style="display:inline-block; margin:8px auto 3px auto; text-align:center; text-decoration:none; cursor:pointer; height:60px;">请先登录</a>
+            <a asp-controller="Account" asp-action="Login" style="display:inline-block; margin:8px auto 3px auto; text-align:center; text-decoration:none; cursor:pointer; height:60px;" id="pleaselogin">请先登录</a>
         }
         <div class="form-group" style="display:inline-block; margin-bottom:0px;">
             <input type="submit" value="发表评论" class="btn btn-default btn-red" form="form1" />
@@ -249,6 +249,20 @@
 </div>
 <hr style="border: 1px solid #D8FAFA" />
 @*查看文章留言E*@
+<script>
+    function IsUserLogin() {
+        let ologin = $("#pleaselogin").text();
+        console.log(ologin)
+        if (ologin == "请先登录") {
+            let oConfirmLogin = confirm("请先登录");
+            if (oConfirmLogin == false) {
+                return false;
+            } else {
+                return true;
+            }
+        }
+    }
+</script>
 <script>
     $(() => {
         setInterval(function () {

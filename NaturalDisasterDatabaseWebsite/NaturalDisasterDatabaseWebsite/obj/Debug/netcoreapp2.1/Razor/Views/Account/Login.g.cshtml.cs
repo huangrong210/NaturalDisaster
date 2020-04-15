@@ -239,7 +239,7 @@ using NaturalDisasterDatabaseWebsite.Controllers;
             WriteLiteral("        <p>你好，请输入账号和密码登录</p>\r\n        <hr style=\"margin-top:6px; margin-bottom:30px;\" />\r\n\r\n        ");
             EndContext();
             BeginContext(3664, 2200, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a64e38a69a024972a4414e5a6c9bc1ab", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90831de36dec45738f007681fdd80545", async() => {
                 BeginContext(3728, 1381, true);
                 WriteLiteral(@"
             <div class=""input-group inputcenter"">
@@ -262,7 +262,7 @@ using NaturalDisasterDatabaseWebsite.Controllers;
                     ");
                 EndContext();
                 BeginContext(5109, 79, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb74e97714984da5bfd8d4490387e4c6", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4bf2c39a04f94b259e067adc46f11441", async() => {
                     BeginContext(5166, 13, true);
                     WriteLiteral("- - 请选择身份 - -");
                     EndContext();
@@ -291,7 +291,7 @@ using NaturalDisasterDatabaseWebsite.Controllers;
                 WriteLiteral("\r\n                    ");
                 EndContext();
                 BeginContext(5210, 34, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7e53765ec57e4a4d86113977c7dfd672", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "81933ea96b7042e49cf44cdc93126d59", async() => {
                     BeginContext(5231, 4, true);
                     WriteLiteral("普通用户");
                     EndContext();
@@ -313,7 +313,7 @@ using NaturalDisasterDatabaseWebsite.Controllers;
                 WriteLiteral("\r\n                    ");
                 EndContext();
                 BeginContext(5266, 32, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "94304000a5cc43ccb3b85cdbeee29c00", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e5be1b5937c04e92a1ca27e2217ab0ef", async() => {
                     BeginContext(5286, 3, true);
                     WriteLiteral("管理员");
                     EndContext();
@@ -338,7 +338,7 @@ using NaturalDisasterDatabaseWebsite.Controllers;
                 WriteLiteral("            <div class=\"input-group inputcenter\">\r\n                <button type=\"submit\" class=\"btn btn-default\">立即登录</button>\r\n                ");
                 EndContext();
                 BeginContext(5771, 56, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "01c7d7d6ae43402796bd0cb9c87d8ced", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1c427a530b1e4b6b84e52fa9f89dadb8", async() => {
                     BeginContext(5818, 5, true);
                     WriteLiteral("找回密码?");
                     EndContext();
@@ -384,7 +384,7 @@ using NaturalDisasterDatabaseWebsite.Controllers;
             WriteLiteral("\r\n        <hr style=\"margin-bottom:10px; margin-top:30px\" />\r\n        <div class=\"input-group inputcenter\" style=\"color:#8a8480;\">\r\n            新来的吗?\r\n            ");
             EndContext();
             BeginContext(6027, 79, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "709635d20bd741af96b17e573047ffc7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5461f9c1e70343838e4aea02fe5ca6fa", async() => {
                 BeginContext(6100, 2, true);
                 WriteLiteral("注册");
                 EndContext();

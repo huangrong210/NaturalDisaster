@@ -153,7 +153,7 @@ using NaturalDisasterDatabaseWebsite.Controllers;
                     ");
             EndContext();
             BeginContext(1508, 69, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6b22a3f4ee9a41ffa771fa13e0352266", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4179385ceba74cca86c92b73d0cd6446", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -464,7 +464,7 @@ AddHtmlAttributeValue("", 1537, Html.DisplayFor(model => model.img), 1537, 36, f
             WriteLiteral("            </table>\r\n            <hr class=\"hr\" />\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(5306, 52, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "89e0664be6024988b3535453feb68060", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f6008ea90802456396ecf4ec696218c0", async() => {
                 BeginContext(5352, 2, true);
                 WriteLiteral("编辑");
                 EndContext();
@@ -499,7 +499,7 @@ AddHtmlAttributeValue("", 1537, Html.DisplayFor(model => model.img), 1537, 36, f
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(5366, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1cef0ae1e93b425e8d6ef5ef2c93cf9f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c149e501cc5c49ed9df19827b6eb04d1", async() => {
                 BeginContext(5388, 8, true);
                 WriteLiteral("返回用户管理列表");
                 EndContext();

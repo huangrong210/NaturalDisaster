@@ -51,7 +51,7 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
             ViewData["SexSortParm"] = String.IsNullOrEmpty(sortOrder) ? "sex_desc" : "";
             ViewData["EmailSortParm"] = String.IsNullOrEmpty(sortOrder) ? "email_desc" : "";
             ViewData["StatusSortParm"] = String.IsNullOrEmpty(sortOrder) ? "status_desc" : "";
-            ViewData["ImgSortParm"] = String.IsNullOrEmpty(sortOrder) ? "head_icon_desc" : "";
+            ViewData["ImgSortParm"] = String.IsNullOrEmpty(sortOrder) ? "img_desc" : "";
             ViewData["PhoneSortParm"] = String.IsNullOrEmpty(sortOrder) ? "telephone_desc" : "";
             ViewData["PlaceSortParm"] = String.IsNullOrEmpty(sortOrder) ? "workplace_desc" : "";
             ViewData["OccuSortParm"] = String.IsNullOrEmpty(sortOrder) ? "occupation_desc" : "";
@@ -125,7 +125,7 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
             ///        query_user = query_user.OrderByDescending(u => u.status);
             ///        break;
             ///    case "img_desc":
-            ///        query_user = query_user.OrderByDescending(u => u.head_icon);
+            ///        query_user = query_user.OrderByDescending(u => u.img);
             ///        break;
             ///    case "phone_desc":
             ///        query_user = query_user.OrderByDescending(u => u.telephone);
@@ -214,7 +214,7 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
         // POST: users/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("username,password,sex,email,status,head_icon,telephone,workplace,occupation,address")] UsersViewModel users)
+        public async Task<IActionResult> Create([Bind("username,password,sex,email,status,img,telephone,workplace,occupation,address")] UsersViewModel users)
         {
             ///<summary>
             /// 将ASP.NET Core MVC模型绑定器创建的user实体添加到users实体集，然后将更改保存到数据库
@@ -261,7 +261,7 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         //[HttpPost]
         //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> Edit(int id, [Bind("id,username,password,email,status,head_icon,telephone,workplace,occupation,address")] UsersViewModel users)
+        //public async Task<IActionResult> Edit(int id, [Bind("id,username,password,email,status,img,telephone,workplace,occupation,address")] UsersViewModel users)
         //{
         //    if (id != users.ID)
         //    {

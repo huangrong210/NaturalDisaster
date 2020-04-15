@@ -22,6 +22,8 @@ function Show() {
     document.getElementById('modal').classList.remove('hide');
 }
 function Hide() {
+    $("#localImag").html("");
+    $("#localImag").append("预览图像<img id='previewimg' />");
     document.getElementById('shade').classList.add('hide');
     document.getElementById('modal').classList.add('hide');
 }
@@ -35,58 +37,64 @@ $(document).ready(function () {
 function setImagePreview() {
     var docObj = document.getElementById("imgupload");
     var imgObjPreview = document.getElementById("previewimg");
-    var fileUpload = $("#imgupload").get(0);//获得第一个files的名称和值
+    var fileUpload = $("#imgupload").get(0);//获得第一个files的名称和值:input
     var files = fileUpload.files;//获取文件信息
+    let suffix = files[0].name.split(".")[1];
     var data = new FormData();//通过FormData构造函数创建一个空对象
-    if (docObj.files && docObj.files[0]) {
-        //火狐下，直接设img属性
-        imgObjPreview.style.display = 'block';
-        imgObjPreview.style.width = '212px';
-        imgObjPreview.style.height = '200px';
+    //console.log(suffix);
+    if (suffix == "png" || suffix == "jpg" || suffix == "jpeg" || suffix == "bmp" || suffix == "gif" || suffix == "ico" || suffix == "PNG" || suffix == "JPG" || suffix == "JPEG" || suffix == "BMP" || suffix == "GIF" || suffix == "ICO") {
+        if (docObj.files && docObj.files[0]) {
+            //火狐下，直接设img属性
+            imgObjPreview.style.display = 'block';
+            imgObjPreview.style.width = '212px';
+            imgObjPreview.style.height = '200px';
 
-        //火狐7以上版本不能用上面的getAsDataURL()方式获取，需要一下方式
-        imgObjPreview.src = window.URL.createObjectURL(docObj.files[0]);
-
-        for (var i = 0; i < files.length; i++) {
-            data.append(files[i].name, files[i]);//通过append方法追加数据
-        }
-        $.ajax({
-            type: "post",
-            url: "/Home/UploadFiles",
-            contentType: false,//不要去设置Content-Type请求头
-            processData: false,//不要去处理发送的数据
-            data: data,
-            success: function (data) {
-                //document.getElementById('textfield').value = docObj.files[0].name;
-                document.getElementById('textfield').value = data.fName;
-                //alert(data.message);
-                console.log(data.userId);
-            },
-            error: function () {
-                alert("上传文件出现错误！");
+            //火狐7以上版本不能用上面的getAsDataURL()方式获取，需要一下方式
+            imgObjPreview.src = window.URL.createObjectURL(docObj.files[0]);
+            for (var i = 0; i < files.length; i++) {
+                data.append(files[i].name, files[i]);//通过append方法追加数据
             }
-        });
-    }
-    else {
-        //IE下，使用滤镜
-        docObj.select();
-        var imgSrc = document.selection.createRange().text;
-        var localImagId = document.getElementById("localImag");
-        //必须设置初始大小
-        localImagId.style.width = "212px";
-        localImagId.style.height = "200px";
-        //图片异常的捕捉，防止用户修改后缀来伪造图片
-        try {
-            localImagId.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale)";
-            localImagId.filters.item("DXImageTransform.Microsoft.AlphaImageLoader").src = imgSrc;
+            $.ajax({
+                type: "post",
+                url: "/Home/UploadFiles",
+                contentType: false,//不要去设置Content-Type请求头
+                processData: false,//不要去处理发送的数据
+                data: data,
+                success: function (data) {
+                    //document.getElementById('textfield').value = docObj.files[0].name;
+                    document.getElementById('textfield').value = data.fName;
+                    //alert(data.message);
+                    //console.log(data.userId);
+                },
+                error: function () {
+                    alert("上传文件出现错误！");
+                }
+            });
         }
-        catch (e) {
-            alert("您上传的图片格式不正确，请重新选择!");
-            return false;
+        else {
+            //IE下，使用滤镜
+            docObj.select();
+            var imgSrc = document.selection.createRange().text;
+            var localImagId = document.getElementById("localImag");
+            //必须设置初始大小
+            localImagId.style.width = "212px";
+            localImagId.style.height = "200px";
+            //图片异常的捕捉，防止用户修改后缀来伪造图片
+            try {
+                localImagId.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale)";
+                localImagId.filters.item("DXImageTransform.Microsoft.AlphaImageLoader").src = imgSrc;
+            }
+            catch (e) {
+                alert("您上传的图片格式不正确，请重新选择!");
+                return false;
+            }
+            document.selection.empty();
         }
-        document.selection.empty();
+        return true;
+    } else {
+        alert("不支持该图片格式！支持格式如：'png', 'jpg', 'jpeg', 'bmp', 'gif','ico'");
     }
-    return true;
+    //return true;
 }
 //修改个人资料
 function xgzl1() {
@@ -136,16 +144,22 @@ function changeBtnable() {
     var oldval = document.getElementById('oldpassword').value;
     var newval = document.getElementById('newpassword').value;
     var qrval = document.getElementById('qrpassword').value;
-    //console.log(oldval, newval, qrval);
-    if (oldval && newval && qrval) {
-        $('.submt').show();
-        $('.noable').hide();
+    var reg = new RegExp(/^\d{6}$/);
+    if (reg.test(oldval) && reg.test(newval) && reg.test(qrval)) {
+        if (newval == qrval) {
+            $('.submt').show();
+            $('.noable').hide();
+            document.getElementById('errormsg').innerText = " ";
+        } else {
+            document.getElementById('errormsg').innerText = "新密码与确认密码不匹配";
+        }
     } else {
         $('.noable').show();
         $('.submt').hide();
+        document.getElementById('errormsg').innerText = "密码为6位数字";
     }
 }
-//显示密码
+//显示密码:复选框
 $(document).ready(function () {
     var $btn = $("#showPas");
     var btn = $btn.get(0);
@@ -178,17 +192,6 @@ $("#oldpassword").blur(function () {
         });
     }
 })
-//新密码及确认密码
-function ComparePwd() {
-    var newPwd = document.getElementById("newpassword").value;
-    var ConfirmPwd = document.getElementById("qrpassword").value;
-    if (newPwd == ConfirmPwd) {
-        return true;
-    } else {
-        document.getElementById('errormsg').innerText = "两次密码不匹配";
-        return false;
-    }
-}
 //我的文章：全部、已发布、待审核、不通过
 $(function () {
     $(".navItem li").click(function () {//获取点击事件的对象

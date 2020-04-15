@@ -220,7 +220,7 @@
                         </li>
                         <li class="lastli">
                             <a asp-controller="PersonCenter" asp-action="Index" style="padding:2px 2px 0px 0px;">
-                                <img alt="暂无头像" src="~/upfiles/@User.FindFirstValue("img")" title="@User.Identity.Name" width="46" height="46" style="border-radius:50%;" />
+                                <img alt="暂无头像" id="navimgsrc" src="~/upfiles/@User.FindFirstValue("img")" title="@User.Identity.Name" width="46" height="46" style="border-radius:50%;" />
                             </a>
                         </li>
                         <li class="lastli">
@@ -396,3 +396,16 @@
     @RenderSection("Scripts", required: false)
 </body>
 </html>
+@*个人中心：修改头像导航栏也跟着变*@
+<script>
+    let oldimgsrc = $("#navimgsrc")[0].src;
+    let newimgsrc = $("#datapicture")[0].src;
+    //console.log(oldimgsrc, newimgsrc)
+    var oldsrc = oldimgsrc.split("/");
+    var newsrc = newimgsrc.split("/");
+    //console.log(oldsrc[oldsrc.length-1], newsrc)
+    if (oldsrc[oldsrc.length - 1] != newsrc[newsrc.length - 1]) {
+        var oSrc = "/upfiles/" + newsrc[newsrc.length - 1];
+        $("#navimgsrc").attr("src", oSrc);
+    }
+</script>

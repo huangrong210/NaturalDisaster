@@ -171,19 +171,20 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
             {
                 return NotFound();
             }
-
-            return View(forum_msgViewModel);
+            return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>var r=confirm('确定要删除该条评论吗？');if (r == true){location.href='/Forum_msg/DeleteConfirmed/" + id + "';}else{history.go(-1);}</script>", "text/html");
+            //return View(forum_msgViewModel);
         }
 
         // POST: Forum_msg/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
+        //[HttpPost, ActionName("Delete")]
+        //[ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var forum_msgViewModel = await _context.Forum_msg.FindAsync(id);
             _context.Forum_msg.Remove(forum_msgViewModel);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            //return RedirectToAction(nameof(Index));
+            return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>alert('成功删除该条记录！');location.href='/Forum_msg/Index'</script>", "text/html");
         }
         //批量删除
         [HttpPost]
