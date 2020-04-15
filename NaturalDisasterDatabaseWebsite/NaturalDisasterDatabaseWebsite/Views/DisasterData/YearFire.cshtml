@@ -1,0 +1,53 @@
+﻿<a asp-controller="DisasterData" asp-action="YearCreateFire"><i class="glyphicon glyphicon-plus"></i><span>添加年度灾害数据：森林火灾</span></a>
+<table class="table">
+    <thead>
+        <tr>
+            <th style="width:4%;">序号</th>
+            <th style="width:4%;">年份</th>
+            <th style="width:8%;">总发生次数(次)</th>
+            <th style="width:8%;">一般火灾(次)</th>
+            <th style="width:8%;">较大火灾(次)</th>
+            <th style="width:8%;">重大火灾(次)</th>
+            <th style="width:8%;">特大火灾(次)</th>
+            <th style="width:8%;">伤亡人数(人)</th>
+            <th style="width:10%;">火场面积(公顷)</th>
+            <th style="width:10%;">受灾面积(公顷)</th>
+            <th style="width:10%;">经济损失(万元)</th>
+            <th style="width:10%;">备注</th>
+            <th style="width:4%;">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i = 1;
+            var count = 0;
+            @foreach (var fireyear in ViewBag.fireyear)
+            {
+        <tr>
+            <td class="t_center">@i</td>
+            <td>@fireyear.ffYears</td>
+            <td>@fireyear.ffNumbers</td>
+            <td>@fireyear.ffGeneralNumbers</td>
+            <td>@fireyear.ffMiddleNumbers</td>
+            <td>@fireyear.ffMajorNumbers</td>
+            <td>@fireyear.ffSpecialNumbers</td>
+            <td>@fireyear.ffCasualtiesNumbers</td>
+            <td>@fireyear.ffTFireArea</td>
+            <td>@fireyear.ffTAffectedArea</td>
+            <td>@fireyear.ffEconomicLossed</td>
+            <td class="newsInfo" style="text-align:justify; text-align-last:left;">
+                <div class="newInfoTruncation newInfoTruncation3" id="boxId">@Html.Raw(System.Net.WebUtility.UrlDecode(@fireyear.ffRemarks))</div>
+                <span>@Html.Raw(System.Net.WebUtility.UrlDecode(@fireyear.ffRemarks))</span>
+            </td>
+            <td>
+                <a asp-controller="DisasterData" asp-action="YearEditFire" asp-route-id="@fireyear.ID">编辑</a>
+                <a asp-controller="DisasterData" asp-action="YearDeleteFire" asp-route-id="@fireyear.ID">删除</a>
+            </td>
+        </tr>
+                i++;
+                count = i - 1;
+            }
+            @*@count;*@
+        }
+    </tbody>
+</table>

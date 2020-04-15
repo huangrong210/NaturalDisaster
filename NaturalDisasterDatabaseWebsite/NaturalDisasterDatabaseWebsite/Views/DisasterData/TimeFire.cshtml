@@ -1,0 +1,52 @@
+﻿<a asp-controller="DisasterData" asp-action="CreateFire"><i class="glyphicon glyphicon-plus"></i><span>添加时刻灾害数据：森林火灾</span></a>
+<table class="table">
+    <thead>
+        <tr>
+            <th style="width:4%;">序号</th>
+            <th style="width:8%;">时间</th>
+            <th style="width:5%;">级别</th>
+            <th style="width:8%;">经度(°)</th>
+            <th style="width:8%;">维度(°)</th>
+            <th style="width:8%;">伤亡(人)</th>
+            <th style="width:8%;">损失(万元)</th>
+            <th style="width:8%;">范围(公顷)</th>
+            <th style="width:13%;">参考地点</th>
+            <th style="width:13%;">详情</th>
+            <th style="width:4%;">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i = 1;
+            var count = 0;
+            @foreach (var firetime in ViewBag.firetime)
+            {
+            <tr>
+                <td class="t_center">@i</td>
+                <td style="text-align:center;"> @DateTime.Parse(@firetime.firetime.ToString()).ToString("yyyy-MM-dd HH:mm:ss")  @*@crop.userID*@</td>
+                <td>@firetime.fireslevel</td>
+                <td>@firetime.firelogitude</td>
+                <td>@firetime.firedimension</td>
+                <td>@firetime.firecasualty</td>
+                <td>@firetime.fireloss</td>
+                <td>@firetime.firearea</td>
+                <td class="newsInfo" style="text-align:justify; text-align-last:left;">
+                    <div class="newInfoTruncation">@firetime.fireplace</div>
+                    <span>@firetime.fireplace</span>
+                </td>
+                <td class="newsInfo" style="text-align:justify; text-align-last:left;">
+                    <div class="newInfoTruncation newInfoTruncation3" id="boxId">@Html.Raw(System.Net.WebUtility.UrlDecode(@firetime.firedetails))</div>
+                    <span>@Html.Raw(System.Net.WebUtility.UrlDecode(@firetime.firedetails))</span>
+                </td>
+                <td>
+                    <a asp-controller="DisasterData" asp-action="EditFire" asp-route-id="@firetime.ID">编辑</a>
+                    <a asp-controller="DisasterData" asp-action="DeleteFire" asp-route-id="@firetime.ID">删除</a>
+                </td>
+            </tr>
+                i++;
+                count = i - 1;
+            }
+            @*@count;*@
+        }
+    </tbody>
+</table>

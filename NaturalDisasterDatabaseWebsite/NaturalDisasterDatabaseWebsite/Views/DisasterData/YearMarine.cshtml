@@ -1,0 +1,43 @@
+﻿<a asp-controller="DisasterData" asp-action="YearCreateMarine"><i class="glyphicon glyphicon-plus"></i><span>添加年度灾害数据：海洋灾害</span></a>
+<table class="table">
+    <thead>
+        <tr>
+            <th style="width:5%;">序号</th>
+            <th style="width:8%;">年份</th>
+            <th style="width:14%;">发生次数(次)</th>
+            <th style="width:14%;">伤亡人数(人)</th>
+            <th style="width:10%;">经济损失(亿元)</th>
+            <th style="width:14%;">广西经济损失(亿元)</th>
+            <th style="width:30%;">备注</th>
+            <th style="width:5%;">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i = 1;
+            var count = 0;
+            @foreach (var marineyear in ViewBag.marineyear)
+            {
+            <tr>
+                <td class="t_center">@i</td>
+                <td>@marineyear.maYears</td>
+                <td>@marineyear.maTOccurNumber</td>
+                <td>@marineyear.maCasualtiesNumbers</td>
+                <td>@marineyear.maEconomicLosses</td>
+                <td>@marineyear.maGXEconomicLoss</td>
+                <td class="newsInfo" style="text-align:justify; text-align-last:left;">
+                    <div class="newInfoTruncation newInfoTruncation3" id="boxId">@Html.Raw(System.Net.WebUtility.UrlDecode(@marineyear.maRemarks))</div>
+                    <span>@Html.Raw(System.Net.WebUtility.UrlDecode(@marineyear.maRemarks))</span>
+                </td>
+                <td>
+                    <a asp-controller="DisasterData" asp-action="YearEditMarine" asp-route-id="@marineyear.ID">编辑</a>
+                    <a asp-controller="DisasterData" asp-action="YearDeleteMarine" asp-route-id="@marineyear.ID">删除</a>
+                </td>
+            </tr>
+                i++;
+                count = i - 1;
+            }
+            @*@count;*@
+        }
+    </tbody>
+</table>

@@ -1,0 +1,51 @@
+﻿<a asp-controller="DisasterData" asp-action="YearCreateFlood"><i class="glyphicon glyphicon-plus"></i><span>添加年度灾害数据：洪水灾害</span></a>
+<table class="table">
+    <thead>
+        <tr>
+            <th style="width:4%;">序号</th>
+            <th style="width:4%;">年份</th>
+            <th style="width:10%;">农业受灾面积(千公顷)</th>
+            <th style="width:10%;">农业成灾面积(千公顷)</th>
+            <th style="width:10%;">水灾受灾面积(千公顷)</th>
+            <th style="width:10%;">水灾成灾面积(千公顷)</th>
+            <th style="width:10%;">旱灾受灾面积(千公顷)</th>
+            <th style="width:10%;">旱灾成灾面积(千公顷)</th>
+            <th style="width:7%;">除涝面积(千公顷)</th>
+            <th style="width:10%;">经济损失(亿元)</th>
+            <th style="width:11%;">备注</th>
+            <th style="width:4%;">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i = 1;
+            var count = 0;
+            @foreach (var floodyear in ViewBag.floodyear)
+            {
+        <tr>
+            <td class="t_center">@i</td>
+            <td>@floodyear.fYears</td>
+            <td>@floodyear.fAgrishouzArea</td>
+            <td>@floodyear.fAgrichengzArea</td>
+            <td>@floodyear.fWatershouzArea</td>
+            <td>@floodyear.fWaterchengzArea</td>
+            <td>@floodyear.fDroughtshouzArea</td>
+            <td>@floodyear.fDroughtchengzArea</td>
+            <td>@floodyear.fDrainageArea</td>
+            <td>@floodyear.fEconomicLosses</td>
+            <td class="newsInfo" style="text-align:justify; text-align-last:left;">
+                <div class="newInfoTruncation newInfoTruncation3" id="boxId">@Html.Raw(System.Net.WebUtility.UrlDecode(@floodyear.fRemarks))</div>
+                <span>@Html.Raw(System.Net.WebUtility.UrlDecode(@floodyear.fRemarks))</span>
+            </td>
+            <td>
+                <a asp-controller="DisasterData" asp-action="YearEditFlood" asp-route-id="@floodyear.ID">编辑</a>
+                <a asp-controller="DisasterData" asp-action="YearDeleteFlood" asp-route-id="@floodyear.ID">删除</a>
+            </td>
+        </tr>
+                i++;
+                count = i - 1;
+            }
+            @*@count;*@
+        }
+    </tbody>
+</table>

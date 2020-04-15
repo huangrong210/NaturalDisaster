@@ -1,0 +1,53 @@
+﻿<a asp-controller="DisasterData" asp-action="CreateForest"><i class="glyphicon glyphicon-plus"></i><span>添加时刻灾害数据：森林生物灾害</span></a>
+<table class="table">
+    <thead>
+        <tr>
+            <th style="width:4%;">序号</th>
+            <th style="width:8%;">时间</th>
+            <th style="width:8%;">经度(°)</th>
+            <th style="width:8%;">维度(°)</th>
+            <th style="width:8%;">损失(万元)</th>
+            <th style="width:8%;">范围(公顷)</th>
+            <th style="width:13%;">灾害类型</th>
+            <th style="width:13%;">参考地点</th>
+            <th style="width:26%;">详情</th>
+            <th style="width:4%;">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i = 1;
+            var count = 0;
+            @foreach (var forest in ViewBag.foresttime)
+            {
+                <tr>
+                    <td class="t_center">@i</td>
+                    <td style="text-align:center;"> @DateTime.Parse(@forest.foresttime.ToString()).ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>@forest.forestlogitude</td>
+                    <td>@forest.forestdimension</td>
+                    <td>@forest.forestloss</td>
+                    <td>@forest.forestarea</td>
+                    <td class="newsInfo" style="text-align:justify; text-align-last:left;">
+                        <div class="newInfoTruncation">@forest.foreststyle</div>
+                        <span>@forest.foreststyle</span>
+                    </td>
+                    <td class="newsInfo" style="text-align:justify; text-align-last:left;">
+                        <div class="newInfoTruncation">@forest.forestplace</div>
+                        <span>@forest.forestplace</span>
+                    </td>
+                    <td class="newsInfo" style="text-align:justify; text-align-last:left;">
+                        <div class="newInfoTruncation newInfoTruncation3" id="boxId">@Html.Raw(System.Net.WebUtility.UrlDecode(@forest.forestdetails))</div>
+                        <span>@Html.Raw(System.Net.WebUtility.UrlDecode(@forest.forestdetails))</span>
+                    </td>
+                    <td>
+                        <a asp-controller="DisasterData" asp-action="EditForest" asp-route-id="@forest.ID">编辑</a>
+                        <a asp-controller="DisasterData" asp-action="DeleteForest" asp-route-id="@forest.ID">删除</a>
+                    </td>
+                </tr>
+                i++;
+                count = i - 1;
+            }
+            @*@count;*@
+        }
+    </tbody>
+</table>

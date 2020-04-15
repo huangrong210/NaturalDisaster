@@ -1,0 +1,54 @@
+﻿<a asp-controller="DisasterData" asp-action="CreateMarine"><i class="glyphicon glyphicon-plus"></i><span>添加时刻灾害数据：海洋灾害</span></a>
+<table class="table">
+    <thead>
+        <tr>
+            <th style="width:4%;">序号</th>
+            <th style="width:8%;">时间</th>
+            <th style="width:8%;">经度(°)</th>
+            <th style="width:8%;">维度(°)</th>
+            <th style="width:8%;">伤亡(人)</th>
+            <th style="width:8%;">损失(万元)</th>
+            <th style="width:13%;">灾害类型</th>
+            <th style="width:13%;">参考地点</th>
+            <th style="width:26%;">详情</th>
+            <th style="width:4%;">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i = 1;
+            var count = 0;
+            @foreach (var marinetime in ViewBag.marinetime)
+            {
+                <tr>
+                    <td class="t_center">@i</td>
+                    <td style="text-align:center;"> @DateTime.Parse(@marinetime.marinetime.ToString()).ToString("yyyy-MM-dd HH:mm:ss")  @*@crop.userID*@</td>
+                    <td>@marinetime.marinelogitude</td>
+                    <td>@marinetime.marinedimension</td>
+                    <td>@marinetime.marinecasualty</td>
+                    <td>@marinetime.marineloss</td>
+                    <td class="newsInfo" style="text-align:justify; text-align-last:left;">
+                        <div class="newInfoTruncation">@marinetime.marinestyle</div>
+                        <span>@marinetime.marinestyle</span>
+                    </td>
+                    <td class="newsInfo" style="text-align:justify; text-align-last:left;">
+                        <div class="newInfoTruncation">@marinetime.marineplace</div>
+                        <span>@marinetime.marineplace</span>
+                    </td>
+                    <td class="newsInfo" style="text-align:justify; text-align-last:left;">
+                        <div class="newInfoTruncation newInfoTruncation3" id="boxId">@Html.Raw(System.Net.WebUtility.UrlDecode(@marinetime.marinedetails))</div>
+                        <span>@Html.Raw(System.Net.WebUtility.UrlDecode(@marinetime.marinedetails))</span>
+                    </td>
+                    <td>
+                        <a asp-controller="DisasterData" asp-action="EditMarine" asp-route-id="@marinetime.ID">编辑</a>
+                        <a asp-controller="DisasterData" asp-action="DeleteMarine" asp-route-id="@marinetime.ID">删除</a>
+                    </td>
+                </tr>
+                i++;
+                count = i - 1;
+            }
+            @*@count;*@
+        }
+    </tbody>
+</table>
+

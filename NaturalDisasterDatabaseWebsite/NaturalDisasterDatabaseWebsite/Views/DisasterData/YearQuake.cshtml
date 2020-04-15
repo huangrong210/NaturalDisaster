@@ -1,0 +1,41 @@
+﻿<a asp-controller="DisasterData" asp-action="YearCreateQuake"><i class="glyphicon glyphicon-plus"></i><span>添加年度灾害数据：地震灾害</span></a>
+<table class="table">
+    <thead>
+        <tr>
+            <th style="width:5%;">序号</th>
+            <th style="width:8%;">年份</th>
+            <th style="width:16%;">发生次数(次)</th>
+            <th style="width:16%;">伤亡人数(人)</th>
+            <th style="width:16%;">经济损失(万元)</th>
+            <th style="width:34%;">备注</th>
+            <th style="width:5%;">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i = 1;
+            var count = 0;
+            @foreach (var quakeyear in ViewBag.quakeyear)
+            {
+            <tr>
+                <td class="t_center">@i</td>
+                <td>@quakeyear.eYears</td>
+                <td>@quakeyear.eTotalNumbers</td>
+                <td>@quakeyear.eCasualties</td>
+                <td>@quakeyear.eEconomicLosses</td>
+                <td class="newsInfo" style="text-align:justify; text-align-last:left;">
+                    <div class="newInfoTruncation newInfoTruncation3" id="boxId">@Html.Raw(System.Net.WebUtility.UrlDecode(@quakeyear.eRemarks))</div>
+                    <span>@Html.Raw(System.Net.WebUtility.UrlDecode(@quakeyear.eRemarks))</span>
+                </td>
+                <td>
+                    <a asp-controller="DisasterData" asp-action="YearEditQuake" asp-route-id="@quakeyear.ID">编辑</a>
+                    <a asp-controller="DisasterData" asp-action="YearDeleteQuake" asp-route-id="@quakeyear.ID">删除</a>
+                </td>
+            </tr>
+                i++;
+                count = i - 1;
+            }
+            @*@count;*@
+        }
+    </tbody>
+</table>

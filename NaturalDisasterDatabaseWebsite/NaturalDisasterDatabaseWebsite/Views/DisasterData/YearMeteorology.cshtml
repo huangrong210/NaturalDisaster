@@ -1,0 +1,45 @@
+﻿<a asp-controller="DisasterData" asp-action="YearCreateMeteorology"><i class="glyphicon glyphicon-plus"></i><span>添加年度灾害数据：气象灾害</span></a>
+<table class="table">
+    <thead>
+        <tr>
+            <th style="width:5%;">序号</th>
+            <th style="width:5%;">年份</th>
+            <th style="width:13%;">总受灾面积(千公顷)</th>
+            <th style="width:13%;">总绝收面积(千公顷)</th>
+            <th style="width:13%;">受灾人口(万人次)</th>
+            <th style="width:13%;">伤亡人数(人)</th>
+            <th style="width:13%;">经济损失(亿元)</th>
+            <th style="width:20%;">备注</th>
+            <th style="width:5%;">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i = 1;
+            var count = 0;
+            @foreach (var meteorologyyear in ViewBag.meteorologyyear)
+            {
+        <tr>
+            <td class="t_center">@i</td>
+            <td>@meteorologyyear.mYears</td>
+            <td>@meteorologyyear.mTShouzArea</td>
+            <td>@meteorologyyear.mTJuesArea</td>
+            <td>@meteorologyyear.mManShouzNumbers</td>
+            <td>@meteorologyyear.mCasualtiesNumbers</td>
+            <td>@meteorologyyear.mEconomicLosses</td>
+            <td class="newsInfo" style="text-align:justify; text-align-last:left;">
+                <div class="newInfoTruncation newInfoTruncation3" id="boxId">@Html.Raw(System.Net.WebUtility.UrlDecode(@meteorologyyear.mRemarks))</div>
+                <span>@Html.Raw(System.Net.WebUtility.UrlDecode(@meteorologyyear.mRemarks))</span>
+            </td>
+            <td>
+                <a asp-controller="DisasterData" asp-action="YearEditMeteorology" asp-route-id="@meteorologyyear.ID">编辑</a>
+                <a asp-controller="DisasterData" asp-action="YearDeleteMeteorology" asp-route-id="@meteorologyyear.ID">删除</a>
+            </td>
+        </tr>
+                i++;
+                count = i - 1;
+            }
+            @*@count;*@
+        }
+    </tbody>
+</table>

@@ -1,0 +1,54 @@
+﻿<a asp-controller="DisasterData" asp-action="CreateQuake"><i class="glyphicon glyphicon-plus"></i><span>添加时刻灾害数据：地震灾害</span></a>
+<table class="table">
+    <thead>
+        <tr>
+            <th style="width:4%;">序号</th>
+            <th style="width:8%;">时间</th>
+            <th style="width:5%;">震级</th>
+            <th style="width:8%;">经度(°)</th>
+            <th style="width:8%;">维度(°)</th>
+            <th style="width:8%;">深度(km)</th>
+            <th style="width:8%;">伤亡(人)</th>
+            <th style="width:8%;">损失(万元)</th>
+            <th style="width:8%;">范围(公顷)</th>
+            <th style="width:13%;">参考地点</th>
+            <th style="width:18%;">详情</th>
+            <th style="width:4%;">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i = 1;
+            var count = 0;
+            @foreach (var quaketime in ViewBag.quaketime)
+            {
+        <tr>
+            <td class="t_center">@i</td>
+            <td style="text-align:center;"> @DateTime.Parse(@quaketime.quaketime.ToString()).ToString("yyyy-MM-dd HH:mm:ss")  @*@crop.userID*@</td>
+            <td>@quaketime.quakelevel</td>
+            <td>@quaketime.quakelongitude</td>
+            <td>@quaketime.quakedimension</td>
+            <td>@quaketime.quakedepth</td>
+            <td>@quaketime.quakecasualty</td>
+            <td>@quaketime.quakeloss</td>
+            <td>@quaketime.quakearea</td>
+            <td class="newsInfo" style="text-align:justify; text-align-last:left;">
+                <div class="newInfoTruncation">@quaketime.quakeplace</div>
+                <span>@quaketime.quakeplace</span>
+            </td>
+            <td class="newsInfo" style="text-align:justify; text-align-last:left;">
+                <div class="newInfoTruncation newInfoTruncation3" id="boxId">@Html.Raw(System.Net.WebUtility.UrlDecode(@quaketime.quakedetails))</div>
+                <span>@Html.Raw(System.Net.WebUtility.UrlDecode(@quaketime.quakedetails))</span>
+            </td>
+            <td>
+                <a asp-controller="DisasterData" asp-action="EditQuake" asp-route-id="@quaketime.ID">编辑</a>
+                <a asp-controller="DisasterData" asp-action="DeleteQuake" asp-route-id="@quaketime.ID">删除</a>
+            </td>
+        </tr>
+                i++;
+                count = i - 1;
+            }
+            @*@count;*@
+        }
+    </tbody>
+</table>

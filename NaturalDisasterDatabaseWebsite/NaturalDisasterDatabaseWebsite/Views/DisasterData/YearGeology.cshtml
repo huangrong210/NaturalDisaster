@@ -1,0 +1,47 @@
+﻿<a asp-controller="DisasterData" asp-action="YearCreateGeology"><i class="glyphicon glyphicon-plus"></i><span>添加年度灾害数据：地质灾害</span></a>
+<table class="table">
+    <thead>
+        <tr>
+            <th style="width:5%;">序号</th>
+            <th style="width:6%;">年份</th>
+            <th style="width:10%;">发生次数(次)</th>
+            <th style="width:10%;">伤亡人数(人)</th>
+            <th style="width:10%;">经济损失(万元)</th>
+            <th style="width:10%;">防治项目数(个)</th>
+            <th style="width:10%;">防治投资(万元)</th>
+            <th style="width:12%;">治理面积(千公顷)</th>
+            <th style="width:22%;">备注</th>
+            <th style="width:5%;">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i = 1;
+            var count = 0;
+            @foreach (var geologyyear in ViewBag.geologyyear)
+            {
+        <tr>
+            <td class="t_center">@i</td>
+            <td>@geologyyear.gYears</td>
+            <td>@geologyyear.gTOccurNumbers</td>
+            <td>@geologyyear.gCasualtiesNumbers</td>
+            <td>@geologyyear.gEconomicLosses</td>
+            <td>@geologyyear.gCProjectNumbers</td>
+            <td>@geologyyear.gControlInvest</td>
+            <td>@geologyyear.gZhiliArea</td>
+            <td class="newsInfo" style="text-align:justify; text-align-last:left;">
+                <div class="newInfoTruncation newInfoTruncation3" id="boxId">@Html.Raw(System.Net.WebUtility.UrlDecode(@geologyyear.gRemarks))</div>
+                <span>@Html.Raw(System.Net.WebUtility.UrlDecode(@geologyyear.gRemarks))</span>
+            </td>
+            <td>
+                <a asp-controller="DisasterData" asp-action="YearEditGeology" asp-route-id="@geologyyear.ID">编辑</a>
+                <a asp-controller="DisasterData" asp-action="YearDeleteGeology" asp-route-id="@geologyyear.ID">删除</a>
+            </td>
+        </tr>
+                i++;
+                count = i - 1;
+            }
+            @*@count;*@
+        }
+    </tbody>
+</table>
