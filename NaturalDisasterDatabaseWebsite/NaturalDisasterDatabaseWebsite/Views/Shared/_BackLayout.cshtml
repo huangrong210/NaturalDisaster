@@ -112,7 +112,7 @@
                         </li>
                         <li class="lastli">
                             <a asp-controller="PersonCenter" asp-action="Index" style="padding:2px 2px 0px 8px;">
-                                <img alt="暂无头像" src="~/upfiles/@User.FindFirstValue("img")" width="46" height="46" style="border-radius:50%;" />
+                                <img alt="暂无头像" src="~/upfiles/@User.FindFirstValue("img")" id="navimgsrc" width="46" height="46" style="border-radius:50%;" />
                             </a>
                         </li>
                         <li class="lastli">
@@ -175,6 +175,7 @@
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
+    
     @RenderSection("Scripts", required: false)
 </body>
 </html>

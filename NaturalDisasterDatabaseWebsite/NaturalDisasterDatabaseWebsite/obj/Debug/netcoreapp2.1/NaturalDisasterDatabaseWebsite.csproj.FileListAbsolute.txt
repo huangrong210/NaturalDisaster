@@ -125,3 +125,4 @@ F:\bishe\NaturalDisasterDatabaseWebsite\NaturalDisasterDatabaseWebsite\obj\Debug
 F:\bishe\NaturalDisasterDatabaseWebsite\NaturalDisasterDatabaseWebsite\obj\Debug\netcoreapp2.1\Razor\Views\DisasterData\YearEditQuake.g.cshtml.cs
 F:\bishe\NaturalDisasterDatabaseWebsite\NaturalDisasterDatabaseWebsite\obj\Debug\netcoreapp2.1\Razor\Views\DisasterData\YearQuake.g.cshtml.cs
 F:\bishe\NaturalDisasterDatabaseWebsite\NaturalDisasterDatabaseWebsite\obj\Debug\netcoreapp2.1\Razor\Views\DisasterData\YearCreateQuake.g.cshtml.cs
+F:\bishe\NaturalDisasterDatabaseWebsite\NaturalDisasterDatabaseWebsite\obj\Debug\netcoreapp2.1\Razor\Views\PersonCenter\IndexOne.g.cshtml.cs

@@ -1,55 +1,64 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@using System.Security.Claims
 @{
     Layout = "_BackLayout";
     ViewData["Title"] = "首页";
 }
-<style>   
+<style>
     h4 {
         font-weight: 500;
         color: #333;
         font-size: 18px;
         margin-top: 20px;
     }
-    h4 span {
-        color: #f80606;
-    }
+
+        h4 span {
+            color: #f80606;
+        }
+
     .pNav {
         text-align: center;
         font-size: 30px;
         color: #CF0066;
         font-weight: 500;
     }
+
     .pTitle {
         font-size: 20px;
         color: #060;
-        padding-left:15px;
+        padding-left: 15px;
     }
+
     div.pSize ul.menu li.level1 ul.level2 {
         display: none;
     }
-    .menu,.level2{
-        list-style:none;
-        font-size:16px;
+
+    .menu, .level2 {
+        list-style: none;
+        font-size: 16px;
     }
-    .menu{
-        padding-left:15px;
+
+    .menu {
+        padding-left: 15px;
     }
-    .menu a{
-        color:#333;
-        text-decoration:none;
-        display:inline-block;
-        text-indent:2em;
-    }
-    .menu a:hover{
-        color:#337ab7;
-    }
-    .level2 p{
+
+        .menu a {
+            color: #333;
+            text-decoration: none;
+            display: inline-block;
+            text-indent: 2em;
+        }
+
+            .menu a:hover {
+                color: #337ab7;
+            }
+
+    .level2 p {
         text-indent: 2em;
-        margin:8px 0;
+        margin: 8px 0;
     }
 </style>
+<input value="@User.FindFirstValue("ID")" id="userid" type="hidden" />
+@*<input id="imgsrc" />*@
 <div id="content">
     <marquee><h4>欢迎&nbsp;<span>━(*｀∀´*)ノ亻!</span>&nbsp;来到八桂自然灾害管理信息系统后台哟……</h4></marquee>
 
@@ -159,6 +168,24 @@
             $(this).next().parent().siblings().children("a").removeClass("current");
             $(this).next().parent().siblings().children("a").next().hide(); //它们的下一个元素隐藏
             return false;
+        });
+        var oid = $("#userid").val(); //获取账号输入框的value值
+
+        //前台个人中心修改头像：后台管理员头像也跟着变
+        $.ajax({ //ajax技术传值
+            type: "post",
+            url: "/HomeBack/GetUserImg", //调用Account控制器中VerifyUsername方法
+            data: {
+                "id": oid, //传值
+            },
+            success: function (e) { //成功后的操作
+                let oldimgsrc = $("#navimgsrc")[0].src;
+                var oldsrc = oldimgsrc.split("/");
+                if (oldsrc[oldsrc.length - 1] != e.imgsrc[0]) {
+                    var oSrc = "/upfiles/" + e.imgsrc[0];
+                    $("#navimgsrc").attr("src", oSrc);
+                }
+            }
         });
     });
 </script>

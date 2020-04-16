@@ -149,7 +149,7 @@ using NaturalDisasterDatabaseWebsite.Controllers;
             <span>");
             EndContext();
             BeginContext(1913, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7ee907f7848b4897b713da421456ee04", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "95cd1f15f67a41a08038a6ee60ca12ab", async() => {
                 BeginContext(1939, 4, true);
                 WriteLiteral("灾害知识");
                 EndContext();
@@ -181,7 +181,7 @@ using NaturalDisasterDatabaseWebsite.Controllers;
             WriteLiteral("</span>\r\n            ");
             EndContext();
             BeginContext(1994, 82, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fe93fe0b11a445b6a49b2f106d687038", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "57586db26ee746cfbf06dd8e02b57f87", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -211,7 +211,7 @@ using NaturalDisasterDatabaseWebsite.Controllers;
             WriteLiteral("                    <li id=\"li1\">\r\n                        ");
             EndContext();
             BeginContext(2338, 95, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d17855a0e9364cdba6e9bb86f7d73f96", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "816fc3ba49d843b1a33ab141ba59ea7c", async() => {
                 BeginContext(2392, 37, false);
 #line 95 "F:\bishe\NaturalDisasterDatabaseWebsite\NaturalDisasterDatabaseWebsite\Views\Home\MoreOthers.cshtml"
                                                                         Write(Html.DisplayFor(modelItem => e.title));
