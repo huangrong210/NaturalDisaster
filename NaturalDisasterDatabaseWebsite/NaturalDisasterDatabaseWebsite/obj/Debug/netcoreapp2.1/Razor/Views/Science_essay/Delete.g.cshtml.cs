@@ -159,12 +159,12 @@ using NaturalDisasterDatabaseWebsite.Controllers;
             WriteLiteral("</strong>的文章吗?\r\n</p>\r\n");
             EndContext();
             BeginContext(1424, 171, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90c59b5fc16d40f7a3530be910506d3e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ea4156e4551946c98f7e1edeb01573a6", async() => {
                 BeginContext(1480, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(1486, 36, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fe6566fe1f8a43968848f78a250a649e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "611ce0c26f2045a3b0a68a619d0a7f7e", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -209,7 +209,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(1597, 47, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "44267b8bac594f9982a08bbd5cd86021", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "57343c27a9b74f84ae4992a81958f203", async() => {
                 BeginContext(1632, 8, true);
                 WriteLiteral("返回文章管理列表");
                 EndContext();

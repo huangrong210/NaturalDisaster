@@ -29,7 +29,6 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
         public IActionResult GetUserImg(string id)
         {
             //Lambda表达式
-            //var imgsrc = _context.users.FirstOrDefault(m => m.ID.ToString() == id);
             var imgsrc = from userid in _context.users where userid.ID.ToString()==id select userid.img;
             if (imgsrc != null)
             {

@@ -2,6 +2,7 @@
     Layout = "_BackLayout";
     ViewData["Title"] = "灾害数据管理";
 }
+<script src="~/lib/jquery-table2excel/dist/jquery.table2excel.js"></script>
 <style>
     .msgmanage {
         text-align: center;
@@ -75,22 +76,22 @@
         display: inline-block;
     }
 
-    .createdidata i {
-        color: #333;
-    }
+        .createdidata i {
+            color: #333;
+        }
 
-    .createdidata i, .createdidata a {
-        font-size: 14px;
-    }
+        .createdidata i, .createdidata a {
+            font-size: 14px;
+        }
 
-    .createdidata a span {
-        display: inline-block;
-        width: 230px;
-        height: 28px;
-        line-height: 28px;
-        background: #F1F3F4;
-        text-align: center;
-    }
+            .createdidata a span {
+                display: inline-block;
+                width: 230px;
+                height: 28px;
+                line-height: 28px;
+                background: #F1F3F4;
+                text-align: center;
+            }
 
     .form_search {
         float: right;
@@ -105,10 +106,13 @@
         padding-bottom: 8px;
     }
 
-    .timeli li:hover {
-        color: #ccc;
-        cursor: pointer;
-    }
+        .timeli li:hover {
+            color: #ccc;
+            cursor: pointer;
+        }
+
+    <script src="~/lib/jquery-table2excel/dist/jquery.table2excel.js" > </script >
+    <script src="~/lib/jquery-table2excel/dist/jquery.table2excel.js" > </script >
 </style>
 <div class="msgmanage">
     <span class="momentdata" style="color:#ca0c16;">时刻数据管理</span>
