@@ -128,7 +128,7 @@ using NaturalDisasterDatabaseWebsite.Controllers;
             WriteLiteral("p class=\"msgmanage\">论坛管理</p>\r\n");
             EndContext();
             BeginContext(1330, 262, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3a88a62810c14f89ab6ed04749e35272", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "429424b917064114800a8c943632e897", async() => {
                 BeginContext(1415, 64, true);
                 WriteLiteral("\r\n    <input type=\"text\" name=\"SearchString\" placeholder=\"关键词搜索\"");
                 EndContext();
@@ -167,7 +167,7 @@ WriteAttributeValue("", 1487, ViewData["currentFilter"], 1487, 26, false);
             WriteLiteral("\r\n<hr style=\"margin-bottom:0px; border-width:2px; color:#DDDDDD;\" />\r\n");
             EndContext();
             BeginContext(1662, 106, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b117839174a4496a996d1290483c21cc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eccd0e1d6478409bbc8ec9acdcbf982c", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper>();
@@ -324,7 +324,7 @@ WriteAttributeValue("", 2835, item.ID, 2835, 8, false);
             WriteLiteral("                    <td>\r\n                        ");
             EndContext();
             BeginContext(3853, 53, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5ba96e85da8043cc856b5bfb813f1c74", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "396e69901d264244940fa149435366c9", async() => {
                 BeginContext(3900, 2, true);
                 WriteLiteral("删除");
                 EndContext();

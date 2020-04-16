@@ -85,7 +85,7 @@ Write(ViewData["Title"]);
     若有什么问题，请联系管理员处理哦~ <a class=""ismanager"" target=""_blank"" href=""http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=alhbWlJbWFldWl4qGxtECQUH"" style=""text-decoration:none;"">");
             EndContext();
             BeginContext(522, 91, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b2c5fcb98b444fcfb3e66db51e1e4b49", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d12937452dac4cda918cab9c82d82c58", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

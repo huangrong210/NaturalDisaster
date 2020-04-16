@@ -186,7 +186,7 @@ using System.Security.Claims;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(119, 5248, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "daccb00aa8644d59bf9986df874dbdeb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "84376116e1f644f5b7e76784f658cc97", async() => {
                 BeginContext(125, 110, true);
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n");
                 EndContext();
@@ -204,12 +204,12 @@ using System.Security.Claims;
                 WriteLiteral(" - 八桂自然灾害网</title>\r\n\r\n    ");
                 EndContext();
                 BeginContext(343, 193, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4f65147bb79e45788c29fba14e3d6623", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a6c63f257ce4f72b455885256c9c397", async() => {
                     BeginContext(378, 10, true);
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(388, 71, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "59258cd78ca84efa91ee0361be2ca84a", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "3795019b16a24d19898f7ccdbecf806d", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -228,7 +228,7 @@ using System.Security.Claims;
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(469, 47, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fb9565a0b7b744858c5f1c44ea71c473", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "256bc5d0297d48dcbf7cc7243e6dbdde", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -264,12 +264,12 @@ using System.Security.Claims;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(542, 457, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "01e2384252e246e69cb561c10924e3ff", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4b7db30bd35a442eabe2a5533c34a697", async() => {
                     BeginContext(577, 10, true);
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(587, 305, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "aed59a75fd27484da9116c01b2774d17", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "64c39836f71c4f35be816cdec8c9f0d9", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper>();
@@ -297,7 +297,7 @@ using System.Security.Claims;
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(902, 77, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a72edae7c18442c49cc05af4bdb193ff", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d1c0b020c44749b8ab0fc6871cf7ffab", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -342,12 +342,12 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(1005, 113, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "89ecad439cfa41a0a67c293947e787ec", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7f4c390a78f64f1990d85fcec2ebead8", async() => {
                     BeginContext(1040, 10, true);
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(1050, 48, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "949633618db0412d880338de15a4d77f", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33f75b5752704a41a58b6b4e8f4c5854", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -382,7 +382,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 WriteLiteral("\r\n    <!-- 配置文件 -->\r\n    ");
                 EndContext();
                 BeginContext(1143, 63, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "95b8170831004b8894aa0dd8d6c570c6", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6f0079fd93f94a7eaccf41149608d8a8", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -400,7 +400,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 WriteLiteral("\r\n    <!-- 编辑器源码文件 -->\r\n    ");
                 EndContext();
                 BeginContext(1234, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2481570a797b4f38857af2bf41f04512", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33aed68d3e6e4e3bba9e77461abb5f49", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -418,7 +418,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(1304, 60, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4921e8bf815b4a85a4aa55fca84626a7", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7ff9ae2a30ec4224acc91dab5181751a", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -436,7 +436,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(1370, 65, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "43d5825778ae4d5488832ed92ca44436", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d9b0e9f1e1f40e6adbc8f3d3560b0d8", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -618,7 +618,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(5369, 12819, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "436ba4c181fa43e29653884f12207e76", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d6bca0fbbcf742d7895b481ccbb7f01d", async() => {
                 BeginContext(5375, 98, true);
                 WriteLiteral("\r\n    <nav class=\"navbar navbar-inverse navbar-fixed-top\">\r\n        <div class=\"container head\">\r\n");
                 EndContext();
@@ -634,7 +634,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 ");
                 EndContext();
                 BeginContext(5988, 228, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec599d7697d2454b93576caddc19ab51", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c875c4b69994487faa22ec6adc882968", async() => {
                     BeginContext(6073, 139, true);
                     WriteLiteral("\r\n                    <i class=\"glyphicon glyphicon-home cblue\" style=\"font-size:20px;\"></i>\r\n                    八桂自然灾害网\r\n                ");
                     EndContext();
@@ -664,7 +664,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 WriteLiteral("            <div class=\"navbar-collapse collapse\">\r\n                <ul class=\"nav navbar-nav\">\r\n                    <li>");
                 EndContext();
                 BeginContext(6420, 73, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "24e184f6762143c9b5a08de497eae8cb", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b4e9a0973d604d9e82421c4345630791", async() => {
                     BeginContext(6485, 4, true);
                     WriteLiteral("灾害数据");
                     EndContext();
@@ -690,7 +690,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 WriteLiteral("</li>\r\n                    <li>");
                 EndContext();
                 BeginContext(6524, 68, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5caad4dea9d847a4accd652df3635e53", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "799e0a4f87a84d8080d4654231278351", async() => {
                     BeginContext(6584, 4, true);
                     WriteLiteral("灾害知识");
                     EndContext();
@@ -716,7 +716,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 WriteLiteral("</li>\r\n                    <li>");
                 EndContext();
                 BeginContext(6623, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9bb0afff55fd413ca5df074823052cb2", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8da3db66e51748308b94f4d5ce13e9ed", async() => {
                     BeginContext(6679, 4, true);
                     WriteLiteral("关于我们");
                     EndContext();
@@ -751,7 +751,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 WriteLiteral("                        <li>");
                 EndContext();
                 BeginContext(6844, 68, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c9548db249a348cd86b3e670ccd2d675", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "099636ed86d14837b0427d8e895905e8", async() => {
                     BeginContext(6904, 4, true);
                     WriteLiteral("后台首页");
                     EndContext();
@@ -794,7 +794,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 WriteLiteral("                    <ul class=\"nav navbar-nav\" style=\"float:right;\">\r\n                        <li class=\"lastli write\">\r\n                            ");
                 EndContext();
                 BeginContext(7186, 680, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "34c316fbc112423c83ee4fc887116e01", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1966443fa18248d7a0e0ae6bf5cf9376", async() => {
                     BeginContext(7239, 102, true);
                     WriteLiteral("\r\n                                <i class=\"csdn-write\"></i><span style=\"color: #D92E2E;\">写文章</span>\r\n");
                     EndContext();
@@ -821,12 +821,12 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 WriteLiteral("\r\n                        </li>\r\n                        <li class=\"lastli\">\r\n                            ");
                 EndContext();
                 BeginContext(7972, 308, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "17d4fe815ca24d1ca5a97ce18d85c6dc", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6d02aabea6954792bcd0aa0c0739750b", async() => {
                     BeginContext(8057, 34, true);
                     WriteLiteral("\r\n                                ");
                     EndContext();
                     BeginContext(8091, 155, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2b290f570cf243caa4dee9740ab411bd", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c9b8c56a32bb4779b9c816de76e188b3", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -883,7 +883,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        </li>\r\n                        <li class=\"lastli\">\r\n                            <a href=\"javascript:void(0)\" style=\"padding-left:3px; padding-top:13px; color:#4c65f2;\">\r\n                                ");
                 EndContext();
                 BeginContext(8508, 308, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "95af1e0b051e41349a248c1fcc9e6a97", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "531933ce1759496dac11b316a83cbc50", async() => {
                     BeginContext(8573, 236, true);
                     WriteLiteral("\r\n                                    <span style=\"color:#333;\">&nbsp;|</span>\r\n                                    <input type=\"submit\" value=\"登出\" style=\"border:none; outline:none; background:none;\" />\r\n                                ");
                     EndContext();
@@ -921,7 +921,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("                    <ul class=\"nav navbar-nav\" style=\"float:right;\">\r\n                        <li class=\"lastli\">\r\n                            ");
                 EndContext();
                 BeginContext(9113, 236, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5fa9e9abc14242f48ad8b2a65e1cb408", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb542cbfc40b47d59f77f397feea9c1e", async() => {
                     BeginContext(9199, 146, true);
                     WriteLiteral("\r\n                                登录\r\n                                <span style=\"color:#333;\">&nbsp;|&nbsp;</span>\r\n                            ");
                     EndContext();
@@ -948,7 +948,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        </li>\r\n                        <li class=\"lastli\">\r\n                            ");
                 EndContext();
                 BeginContext(9455, 94, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "15445c0bc6834ad7a6cb986698304300", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47d31666344f45f3b44762ee575f2b60", async() => {
                     BeginContext(9543, 2, true);
                     WriteLiteral("注册");
                     EndContext();
@@ -986,7 +986,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("        </div>\r\n    </nav>\r\n\r\n    ");
                 EndContext();
                 BeginContext(9704, 40, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "762e53b11d0f4809a6a5446cdc5871d5", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8365b705e4f242d6914cd64886e87650", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -1027,7 +1027,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                         ");
                 EndContext();
                 BeginContext(10187, 40, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6a3467413a9a4b96966e4eaca2cf6266", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5bc4f1a5bfa1447bb594daf7af3c31fa", async() => {
                     BeginContext(10204, 14, true);
                     WriteLiteral("----国家相关部委----");
                     EndContext();
@@ -1049,7 +1049,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(10253, 57, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "841f7fce08544d588ef198142741f2d5", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6375be9c9fe9499db50f2a8ea834a141", async() => {
                     BeginContext(10288, 13, true);
                     WriteLiteral("中华人民共和国中央人民政府");
                     EndContext();
@@ -1071,7 +1071,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(10336, 59, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "25481d5b2a814b96a05a915e4191c237", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8a079bec6c3541b2bb70a49282c11e63", async() => {
                     BeginContext(10376, 10, true);
                     WriteLiteral("国家发展和改革委员会");
                     EndContext();
@@ -1093,7 +1093,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(10421, 54, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b0e18a5715e346c79d1ff3cc6ac7dcc0", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a8c975b24f7b42a888cf01a757f65571", async() => {
                     BeginContext(10461, 5, true);
                     WriteLiteral("科学技术部");
                     EndContext();
@@ -1115,7 +1115,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(10501, 56, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8e563804efd24da8bc36ac69546a4e98", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0927a47d276a4abda8966e97583d78fe", async() => {
                     BeginContext(10541, 7, true);
                     WriteLiteral("工业和信息化部");
                     EndContext();
@@ -1137,7 +1137,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(10583, 51, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "073c250569a44310af9608ca3d4d8b14", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4abfa912b5f34de1959b1e1483ced2af", async() => {
                     BeginContext(10622, 3, true);
                     WriteLiteral("民政部");
                     EndContext();
@@ -1159,7 +1159,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(10660, 53, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a4396009e9134bc2b6431315a3da6425", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "81aa785ff71e4fe993298107b4eafb96", async() => {
                     BeginContext(10699, 5, true);
                     WriteLiteral("自然资源部");
                     EndContext();
@@ -1181,7 +1181,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(10739, 53, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cf2489d245264f3ea6cc53784bb77f7c", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0deaf88c0c0a48628eada9a92155e6c5", async() => {
                     BeginContext(10778, 5, true);
                     WriteLiteral("生态环境部");
                     EndContext();
@@ -1203,7 +1203,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(10818, 59, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c06ffaad56a94b8eb9891cc2729f363d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63dfd4fa4acc4068a41d5d4822edad6d", async() => {
                     BeginContext(10860, 8, true);
                     WriteLiteral("住房和城乡建设部");
                     EndContext();
@@ -1225,7 +1225,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(10903, 52, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "81ddfa4636694409a77ed1e152a788b5", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3487d900a51d48359141ca37420f76ae", async() => {
                     BeginContext(10941, 5, true);
                     WriteLiteral("交通运输部");
                     EndContext();
@@ -1247,7 +1247,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(10981, 51, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "219c80e6fc994308b12b7b35a2507b49", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36113523dd7c4efcb4daaa1f5c25adc8", async() => {
                     BeginContext(11020, 3, true);
                     WriteLiteral("水利部");
                     EndContext();
@@ -1269,7 +1269,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(11058, 53, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "296077e909f145d98f81aa4640ebdb3f", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fe162b65c19848c78f58aa5c2712cb69", async() => {
                     BeginContext(11097, 5, true);
                     WriteLiteral("农业农村部");
                     EndContext();
@@ -1291,7 +1291,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(11137, 53, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "95d279c132ec44088e795768485c17c0", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f20f65880fa445209dd31c7f555894a7", async() => {
                     BeginContext(11176, 5, true);
                     WriteLiteral("国家海洋局");
                     EndContext();
@@ -1313,7 +1313,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(11216, 53, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9c5eb536882147dfb63a0596ae0ad343", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f53b2417aab249f9ad3689c112aff5aa", async() => {
                     BeginContext(11255, 5, true);
                     WriteLiteral("中国气象局");
                     EndContext();
@@ -1335,7 +1335,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(11295, 62, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e3d3c2b019bc4f8a832fc45b2bf1dce2", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61467c42e35c4c1ab40db251f560b6ff", async() => {
                     BeginContext(11338, 10, true);
                     WriteLiteral("国家国防和科技工业局");
                     EndContext();
@@ -1357,7 +1357,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(11383, 61, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1bf96613ba3e49afb0598ed9057a8d4c", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a76830478c0e45c6966794242e769e2f", async() => {
                     BeginContext(11427, 8, true);
                     WriteLiteral("国家林业和草原局");
                     EndContext();
@@ -1379,7 +1379,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(11470, 58, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c80839607a6143019c27f36428e81cf2", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "26cffc3209da41c8a101ef77bee2c6b4", async() => {
                     BeginContext(11510, 9, true);
                     WriteLiteral("国家测绘地理信息局");
                     EndContext();
@@ -1401,7 +1401,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(11554, 53, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1aec213df3e54d4ca114ffd26bb3757b", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "302a9c49eb1f45f4a6488e0cf1f0ee8a", async() => {
                     BeginContext(11593, 5, true);
                     WriteLiteral("中国地震局");
                     EndContext();
@@ -1423,7 +1423,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                    </select>\r\n                </li>\r\n                <li>\r\n                    <select class=\"form-control-select\" id=\"xzdw\">\r\n                        ");
                 EndContext();
                 BeginContext(11777, 38, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0df3f6da7bd846a9abe01ecdbee29d21", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "64837a3341ae47e8903732590b6ca3cb", async() => {
                     BeginContext(11794, 12, true);
                     WriteLiteral("----协作单位----");
                     EndContext();
@@ -1445,7 +1445,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(11841, 52, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3a35bfd2f32840c7865e66de7553e7fb", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7c22f3369fd74bfb9e3d40e6a1b89b3b", async() => {
                     BeginContext(11879, 5, true);
                     WriteLiteral("自然资源部");
                     EndContext();
@@ -1467,7 +1467,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(11919, 62, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "93620e4992b84dbc9f3a53a648763947", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca132848888f4ba998ec71bc607b2c4a", async() => {
                     BeginContext(11959, 13, true);
                     WriteLiteral("自然资源部测绘地理信息管理");
                     EndContext();
@@ -1489,7 +1489,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(12007, 56, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "34cec6a6b0684d36a25d83e98eb6ab06", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8443d768c2f243d4958cd1235378709a", async() => {
                     BeginContext(12047, 7, true);
                     WriteLiteral("水利部信息中心");
                     EndContext();
@@ -1511,7 +1511,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(12089, 53, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41bc250c7b2b4b08b4bc442b3d878fba", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "03f8a4b4036d422cb5e7bff84a0e96c4", async() => {
                     BeginContext(12128, 5, true);
                     WriteLiteral("国家海洋局");
                     EndContext();
@@ -1533,7 +1533,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(12168, 52, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6a06aacd437c405e9eeb9c3d87d23b5e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c617564039d34ed08964ae91eaa6d805", async() => {
                     BeginContext(12206, 5, true);
                     WriteLiteral("中国气象局");
                     EndContext();
@@ -1555,7 +1555,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(12246, 61, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ee7bf64415a44f2794cfb3ff60928754", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7877255c69d846c5a9d45f1d1e90a6d9", async() => {
                     BeginContext(12290, 8, true);
                     WriteLiteral("国家林业和草原局");
                     EndContext();
@@ -1577,7 +1577,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(12333, 55, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20835e9f581141f68c441a4a5ba8ac54", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0945fb36789144f29a92f7b6c8d44d30", async() => {
                     BeginContext(12369, 10, true);
                     WriteLiteral("国家基础地理信息中心");
                     EndContext();
@@ -1599,7 +1599,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(12414, 58, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e9f597f640214bd897a790549de26b6e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "789fdd285fd54cd58c3268989e8831d3", async() => {
                     BeginContext(12453, 10, true);
                     WriteLiteral("中国资源卫星应用中心");
                     EndContext();
@@ -1621,7 +1621,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(12498, 78, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f8a4e3484a7941d987f4537021473dbf", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "59fa2bf8198943b19547c73d59582273", async() => {
                     BeginContext(12555, 12, true);
                     WriteLiteral("中国航天科技集团有限公司");
                     EndContext();
@@ -1643,7 +1643,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(12602, 65, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "449ef68e5c7a46c98f04ec711d87a362", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cdfdff9b809f4772ab09a5cc341d7024", async() => {
                     BeginContext(12643, 15, true);
                     WriteLiteral("中国科学院遥感与数字地球研究所");
                     EndContext();
@@ -1665,7 +1665,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(12693, 65, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ad2ec3109548417fb31096a95c96513b", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e1f9c043b68948fdb61cf15508b5a1b3", async() => {
                     BeginContext(12734, 15, true);
                     WriteLiteral("中国科学院地理科学与资源研究所");
                     EndContext();
@@ -1687,7 +1687,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                    </select>\r\n                </li>\r\n                <li>\r\n                    <select class=\"form-control-select\" id=\"gnxgdw\">\r\n                        ");
                 EndContext();
                 BeginContext(12930, 40, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "89975c5456e348858cb2178e5a952f62", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "953ca787b1354ed4bde69044a176cf67", async() => {
                     BeginContext(12947, 14, true);
                     WriteLiteral("----国内相关单位----");
                     EndContext();
@@ -1709,7 +1709,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(12996, 68, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4d64d09765824013a56a9993fce548aa", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "04779f6c62234d36aa58451ed31f1c58", async() => {
                     BeginContext(13047, 8, true);
                     WriteLiteral("安徽省经济研究院");
                     EndContext();
@@ -1731,7 +1731,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(13090, 55, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec177fae7d26404183b49ee970af335f", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f319916583d049e286bfea201c489de0", async() => {
                     BeginContext(13130, 6, true);
                     WriteLiteral("国家信息协会");
                     EndContext();
@@ -1753,7 +1753,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(13171, 60, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e35729955b7c4f868b2e0b5675d0aed2", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4098bf2ba9cc47a4859d7bb4ac0c007c", async() => {
                     BeginContext(13210, 12, true);
                     WriteLiteral("国家发改委宏观经济研究院");
                     EndContext();
@@ -1775,7 +1775,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(13257, 56, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c11e12f07ddd494c972a5e5471babfd9", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72188e664cc94a3c950cd59aa0f100a6", async() => {
                     BeginContext(13298, 6, true);
                     WriteLiteral("国家遥感中心");
                     EndContext();
@@ -1797,7 +1797,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(13339, 58, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "73ce2e0cf8ab4d16911b28fc42b15d6e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f21132886e9944149051ea5284b678b2", async() => {
                     BeginContext(13378, 10, true);
                     WriteLiteral("国家互联网信息办公室");
                     EndContext();
@@ -1819,7 +1819,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(13423, 59, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2e22ca51776245bcb661c307c7ce70c2", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "202006a3195e41f392c3936ad14917cd", async() => {
                     BeginContext(13463, 10, true);
                     WriteLiteral("中国卫星导航定位协会");
                     EndContext();
@@ -1841,7 +1841,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(13508, 61, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7af1cf5776f2414a8bba2def4bce1d4a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "023dc20c84c8417e8578cc603e2ba10c", async() => {
                     BeginContext(13549, 11, true);
                     WriteLiteral("福建省基础地理信息中心");
                     EndContext();
@@ -1863,7 +1863,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(13595, 60, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6cba81de3265485a81f63920750f652f", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e99ecc9e39264fefa7fa523f9fd01620", async() => {
                     BeginContext(13636, 10, true);
                     WriteLiteral("中国地理信息产业协会");
                     EndContext();
@@ -1885,7 +1885,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(13681, 55, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a9f95be94dd44b3ea93cdd26a6392310", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5fc846943d6f475b9e6d9ca0d45d28d2", async() => {
                     BeginContext(13720, 7, true);
                     WriteLiteral("中国地质调查局");
                     EndContext();
@@ -1907,7 +1907,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(13762, 68, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c39f512fef1f4ba69a4f249ff4781129", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71a0f5fb2cd24f56b9109a593d40f684", async() => {
                     BeginContext(13803, 18, true);
                     WriteLiteral("国家测绘信息局黑龙江基础地理信息中心");
                     EndContext();
@@ -1929,7 +1929,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(13856, 54, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "819925ade7b74b64bcf1a465ca4e9a5c", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "44aea66d8b2c4d7c9bbd6dd158e5a1ea", async() => {
                     BeginContext(13895, 6, true);
                     WriteLiteral("国家信息中心");
                     EndContext();
@@ -1951,7 +1951,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(13936, 63, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1620d567b1564063a7ee41105fc1fda3", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "540099634b124645bb87325768f902c9", async() => {
                     BeginContext(13973, 17, true);
                     WriteLiteral("国家测绘信息局陕西基础地理信息中心");
                     EndContext();
@@ -1973,7 +1973,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(14025, 58, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0bc5c275e27947e4a0a7d587a088b5f4", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "29c4cef2f4824392ab9e44ef9b476b38", async() => {
                     BeginContext(14066, 8, true);
                     WriteLiteral("中国遥感应用协会");
                     EndContext();
@@ -1995,7 +1995,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                    </select>\r\n                </li>\r\n                <li>\r\n                    <select class=\"form-control-select\" id=\"gwxgdw\">\r\n                        ");
                 EndContext();
                 BeginContext(14255, 40, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "de5eb396d62e4c0eba78f5faf3084b29", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a6c06130b04a40bcafbfcaf96e4d2138", async() => {
                     BeginContext(14272, 14, true);
                     WriteLiteral("----国外相关单位----");
                     EndContext();
@@ -2017,7 +2017,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(14321, 60, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2ee19efead68475aa06520f8a3571510", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb6f07173f564901bf7ce04ceaea7b85", async() => {
                     BeginContext(14356, 16, true);
                     WriteLiteral("欧洲地理信息组织（EUROGI）");
                     EndContext();
@@ -2039,7 +2039,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(14407, 71, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4a6e2c6c93b34712987db8122113ba2f", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "76e986a6f775467eb172e3911d11e174", async() => {
                     BeginContext(14451, 18, true);
                     WriteLiteral("全球空间数据基础设施协会（GSDI）");
                     EndContext();
@@ -2061,7 +2061,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(14504, 58, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1faf324400e04931abb8071899bd3ed0", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "81dce29e7a484a0886a506abd47c7ae3", async() => {
                     BeginContext(14543, 10, true);
                     WriteLiteral("欧洲太空局（ESA）");
                     EndContext();
@@ -2083,7 +2083,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(14588, 63, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "001715349c12494aa4d517fae0d2c2d9", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90925b770dec4e59842451afac1f2a69", async() => {
                     BeginContext(14626, 16, true);
                     WriteLiteral("联合国教科文组织（UNESCO）");
                     EndContext();
@@ -2105,7 +2105,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(14677, 59, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "53563ac34be74b3881f091857a8cd83a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "73d104ebe81647eaad4fd959229bfb02", async() => {
                     BeginContext(14715, 12, true);
                     WriteLiteral("亚太经合组织（APEC）");
                     EndContext();
@@ -2127,7 +2127,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(14762, 76, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5c9446d85bf249e7894e9c774ad942da", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0e7c343eae6245ebb7c0e0ed6064732d", async() => {
                     BeginContext(14818, 11, true);
                     WriteLiteral("世界气象组织（WMO）");
                     EndContext();
@@ -2149,7 +2149,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(14864, 58, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b93a320ea1d34ba29f581b1b3710e611", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1f6859730fc5472c96180f3cee421ae3", async() => {
                     BeginContext(14901, 12, true);
                     WriteLiteral("对地观测协会（CEOS）");
                     EndContext();
@@ -2171,7 +2171,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(14948, 72, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "173480f350d541de9a4e8c6d6192ff5b", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7056bb903ce4426ca8150b619179cc92", async() => {
                     BeginContext(14989, 22, true);
                     WriteLiteral("地理信息标准化技术委员会（ISOTC211）");
                     EndContext();
@@ -2193,7 +2193,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(15046, 61, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9efce9f17bb640fb931234997ea0d029", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c234e18ee2674e20a4143ed4571cccc3", async() => {
                     BeginContext(15084, 14, true);
                     WriteLiteral("国际农业发展基金（IFAD）");
                     EndContext();
@@ -2215,7 +2215,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(15133, 71, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c201a27f08d94c4db3a2dc03f8f1a9ce", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9b0b014fdb524e10bf31352418dd89ef", async() => {
                     BeginContext(15180, 15, true);
                     WriteLiteral("开放地理信息系统联盟（OGC）");
                     EndContext();
@@ -2237,7 +2237,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(15230, 65, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2043c1ad99b34ef09a6ef729c2fe091e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4983d5c2d60648a1901b8281f8eb4e92", async() => {
                     BeginContext(15268, 18, true);
                     WriteLiteral("国际摄影测量与遥感协会（ISPRS）");
                     EndContext();
@@ -2259,7 +2259,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(15321, 68, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6958ebabdb8045dc929472bf42422ac4", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a97812f9c37d40b888ea64fdb8c72996", async() => {
                     BeginContext(15361, 19, true);
                     WriteLiteral("世界银行经济发展论坛（IBRDIDA）");
                     EndContext();
@@ -2281,7 +2281,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(15415, 59, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "030c4499dc7340a8a9c3314ee81570dd", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "724e51cb414d49248e4eeb817731e852", async() => {
                     BeginContext(15454, 11, true);
                     WriteLiteral("全球环境资金（GEF）");
                     EndContext();
@@ -2303,7 +2303,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(15500, 63, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "88551f09c2734ee7877a590554fdfd9c", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "34725c0b3d3a40a1bfc2159e19203f11", async() => {
                     BeginContext(15536, 18, true);
                     WriteLiteral("国际空间测量与地球科学协会（ITC）");
                     EndContext();
@@ -2325,7 +2325,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(15589, 60, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fbbbbae6884344a790826605a388d692", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e4a974c61b6a4ff2b16e8823861c8d6f", async() => {
                     BeginContext(15627, 13, true);
                     WriteLiteral("美国地质调查局（USGS）");
                     EndContext();
@@ -2347,7 +2347,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(15675, 62, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "db8e44503dfd41898bcb138eb4a22ca3", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "753538c0065244529e4e170a2efa3ea1", async() => {
                     BeginContext(15715, 13, true);
                     WriteLiteral("国际水道测量组织（IHO）");
                     EndContext();
@@ -2369,7 +2369,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(15763, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "df5e4faf1acc46239db40f990d93bc32", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ce466f16d4444bdcadabb3cb29ccf6d8", async() => {
                     BeginContext(15802, 16, true);
                     WriteLiteral("国际减少灾害战略（UNISDR）");
                     EndContext();
@@ -2427,12 +2427,12 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
     ");
                 EndContext();
                 BeginContext(16941, 258, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5359adc899034409831831c4c89dacac", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6880eb95d27244d0adb9d8b49f7f4c87", async() => {
                     BeginContext(16976, 10, true);
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(16986, 51, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8685c6cfb3474a689100be8300ab3af4", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "65c2527e699745939e25c3ac1d2ed42a", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -2450,7 +2450,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(17047, 60, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9d6ab528a38a41d6bd247f2671f23127", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5ec1d1207586486baeae7d2dbfcf57aa", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -2468,7 +2468,7 @@ AddHtmlAttributeValue("", 8173, User.Identity.Name, 8173, 19, false);
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(17117, 62, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2bba51ed7f304c48b08c7c6e104c1aa6", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ffbed77f6554d918c27b1ef41f14aab", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -2512,12 +2512,12 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion = true;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(17205, 924, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0485ddc0b291452c8ef7d8c1527d4c33", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4a50ac0f3fc444be92f53ecbfd97232b", async() => {
                     BeginContext(17240, 10, true);
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(17250, 353, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a61e95c231dd4237bfe85762afa7ce78", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aa991e982eed4a379db3f1593e68daf4", async() => {
                         BeginContext(17584, 10, true);
                         WriteLiteral("\r\n        ");
                         EndContext();
@@ -2545,7 +2545,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion = true;
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(17613, 420, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e10d780580c040a7a7eddfead26434dd", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "713bc866cf34471e87ab5591fd511798", async() => {
                         BeginContext(18014, 10, true);
                         WriteLiteral("\r\n        ");
                         EndContext();
@@ -2573,7 +2573,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion = true;
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(18043, 66, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1a84b790193044e88061a89721df92a6", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3f060e94f9434ab4886059e21cdcbfbd", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
