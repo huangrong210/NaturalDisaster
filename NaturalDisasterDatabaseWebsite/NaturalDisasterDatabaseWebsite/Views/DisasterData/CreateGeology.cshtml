@@ -1,6 +1,9 @@
 ﻿@using System.Security.Claims
 @{
-    Layout = "_BackLayout";
+    @if (User.Identity.IsAuthenticated && User.FindFirstValue("status") == "管理员")
+    {
+        Layout = "_BackLayout";
+    }
     ViewData["Title"] = "添加地质灾害时刻数据";
 }
 <script src="~/lib/ueditor-1.4.3.3/ueditor.parse.js"></script>
@@ -32,7 +35,15 @@
     <div>
         <a href="javascript:void(0)" style="text-decoration:none;display: inline-block;padding-top: 6px;" onclick="getLongDimen2();">获取经纬度</a>&emsp;
     </div>
-    <a asp-controller="DisasterData" asp-action="Index" style="padding-top: 5px;">返回灾害数据管理列表</a>
+    @if (User.Identity.IsAuthenticated && User.FindFirstValue("status") == "管理员")
+    {
+        <a asp-controller="DisasterData" asp-action="Index" style="padding-top: 5px;">返回灾害数据管理列表</a>
+        <a asp-controller="PersonCenter" asp-action="Index" style="padding-top: 5px;">返回个人中心</a>
+    }
+    else
+    {
+        <a asp-controller="PersonCenter" asp-action="Index" style="padding-top: 5px;">返回个人中心</a>
+    }
 </div>
 
 <hr style="margin-top:15px;" />
@@ -92,7 +103,7 @@
                             <label>经济损失(万元)</label>
                             <input name="geologyloss" class="form-control" />
                         </div>
-                    </td>                    
+                    </td>
                 </tr>
                 <tr>
                     <td>

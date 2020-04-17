@@ -13,8 +13,9 @@
             <th style="width:8%;">伤亡(人)</th>
             <th style="width:8%;">损失(万元)</th>
             <th style="width:8%;">范围(公顷)</th>
-            <th style="width:13%;">参考地点</th>
-            <th style="width:13%;">详情</th>
+            <th style="width:10%;">参考地点</th>
+            <th style="width:10%;">详情</th>
+            <th style="width:6%;">上报人</th>
             <th style="width:4%;" class="noExl">操作</th>
         </tr>
     </thead>
@@ -41,6 +42,7 @@
                         <div class="newInfoTruncation newInfoTruncation3 boxId" id="boxId">@Html.Raw(System.Net.WebUtility.UrlDecode(@firetime.firedetails))</div>
                         <span>@Html.Raw(System.Net.WebUtility.UrlDecode(@firetime.firedetails))</span>
                     </td>
+                    <td>@firetime.username</td>
                     <td class="noExl">
                         <a asp-controller="DisasterData" asp-action="EditFire" asp-route-id="@firetime.ID">编辑</a>
                         <a asp-controller="DisasterData" asp-action="DeleteFire" asp-route-id="@firetime.ID">删除</a>

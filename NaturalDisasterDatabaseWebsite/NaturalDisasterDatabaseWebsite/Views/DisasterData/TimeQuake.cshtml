@@ -15,7 +15,8 @@
             <th style="width:8%;">损失(万元)</th>
             <th style="width:8%;">范围(公顷)</th>
             <th style="width:13%;">参考地点</th>
-            <th style="width:18%;">详情</th>
+            <th style="width:12%;">详情</th>
+            <th style="width:6%;">上报人</th>
             <th style="width:4%;" class="noExl">操作</th>
         </tr>
     </thead>
@@ -43,6 +44,7 @@
                         <div class="newInfoTruncation newInfoTruncation3 boxId" id="boxId">@Html.Raw(System.Net.WebUtility.UrlDecode(@quaketime.quakedetails))</div>
                         <span>@Html.Raw(System.Net.WebUtility.UrlDecode(@quaketime.quakedetails))</span>
                     </td>
+                    <td>@quaketime.username</td>
                     <td class="noExl">
                         <a asp-controller="DisasterData" asp-action="EditQuake" asp-route-id="@quaketime.ID">编辑</a>
                         <a asp-controller="DisasterData" asp-action="DeleteQuake" asp-route-id="@quaketime.ID">删除</a>

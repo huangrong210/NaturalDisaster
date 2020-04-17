@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -21,29 +23,183 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
         public IActionResult Index()
         {
             //时刻
-            var croptime = (from cropt in _context.CropDetailList select cropt).ToList();
-            ViewBag.croptime = croptime;
+            //var croptime = (from cropt in _context.CropDetailList join uu in _context.users on cropt.userID equals uu.ID select new { cropt, uu.username}).ToList();
+            //ViewBag.croptime = croptime;
+            var croptime = (from cropt in _context.CropDetailList join uu in _context.users on cropt.userID equals uu.ID select new { cropt.ID,cropt.croptime,cropt.cropplace,cropt.croplongitude,cropt.cropdimension,cropt.cropstyle,cropt.croploss,cropt.croparea,cropt.cropdetails,cropt.userID, uu.username }).ToList();
+            List<dynamic> Otherallmsg1 = new List<dynamic>();
+            foreach (var oitem in croptime)
+            {
+                dynamic otherObj = new ExpandoObject();
+                otherObj.ID = oitem.ID;
+                otherObj.croptime = oitem.croptime;
+                otherObj.cropplace = oitem.cropplace;
+                otherObj.croplongitude = oitem.croplongitude;
+                otherObj.cropdimension = oitem.cropdimension;
+                otherObj.cropstyle = oitem.cropstyle;
+                otherObj.croploss = oitem.croploss;
+                otherObj.croparea = oitem.croparea;
+                otherObj.cropdetails = oitem.cropdetails;
+                otherObj.userID = oitem.userID;
+                otherObj.username = oitem.username;
 
-            var foresttime = (from forestt in _context.ForestDetailList select forestt).ToList();
-            ViewBag.foresttime = foresttime;
+                Otherallmsg1.Add(otherObj);
+            }
+            ViewBag.croptime = Otherallmsg1;
 
-            var geologytime = (from geologyt in _context.GeologyDetailList select geologyt).ToList();
-            ViewBag.geologytime = geologytime;
+            var foresttime = (from forestt in _context.ForestDetailList join uu in _context.users on forestt.userID equals uu.ID select new { forestt.ID, forestt.foresttime, forestt.forestplace, forestt.forestlogitude, forestt.forestdimension, forestt.forestloss, forestt.foreststyle, forestt.forestarea, forestt.forestdetails, forestt.userID, uu.username }).ToList();
+            List<dynamic> Otherallmsg2 = new List<dynamic>();
+            foreach (var oitem in foresttime)
+            {
+                dynamic otherObj = new ExpandoObject();
+                otherObj.ID = oitem.ID;
+                otherObj.foresttime = oitem.foresttime;
+                otherObj.forestplace = oitem.forestplace;
+                otherObj.forestlogitude = oitem.forestlogitude;
+                otherObj.forestdimension = oitem.forestdimension;
+                otherObj.forestloss = oitem.forestloss;
+                otherObj.foreststyle = oitem.foreststyle;
+                otherObj.forestarea = oitem.forestarea;
+                otherObj.forestdetails = oitem.forestdetails;
+                otherObj.userID = oitem.userID;
+                otherObj.username = oitem.username;
 
-            var firetime = (from firet in _context.FireDetailList select firet).ToList();
-            ViewBag.firetime = firetime;
+                Otherallmsg2.Add(otherObj);
+            }
+            ViewBag.foresttime = Otherallmsg2;
 
-            var floodtime = (from floodt in _context.FloodDetailList select floodt).ToList();
-            ViewBag.floodtime = floodtime;
+            var geologytime = (from geologyt in _context.GeologyDetailList join uu in _context.users on geologyt.userID equals uu.ID select new { geologyt.ID, geologyt.geologytime, geologyt.geologyplace, geologyt.geologylogitude, geologyt.geologydimension, geologyt.geologycasualty, geologyt.geologylevel, geologyt.geologystyle, geologyt.geologyloss,geologyt.geologyarea,geologyt.geologydetails, geologyt.userID, uu.username }).ToList();
+            List<dynamic> Otherallmsg3 = new List<dynamic>();
+            foreach (var oitem in geologytime)
+            {
+                dynamic otherObj = new ExpandoObject();
+                otherObj.ID = oitem.ID;
+                otherObj.geologytime = oitem.geologytime;
+                otherObj.geologyplace = oitem.geologyplace;
+                otherObj.geologylogitude = oitem.geologylogitude;
+                otherObj.geologydimension = oitem.geologydimension;
+                otherObj.geologycasualty = oitem.geologycasualty;
+                otherObj.geologylevel = oitem.geologylevel;
+                otherObj.geologystyle = oitem.geologystyle;
+                otherObj.geologyloss = oitem.geologyloss;
+                otherObj.geologyarea = oitem.geologyarea;
+                otherObj.geologydetails = oitem.geologydetails;
+                otherObj.userID = oitem.userID;
+                otherObj.username = oitem.username;
 
-            var meteorologytime = (from meteorologyt in _context.QixiangDetailList select meteorologyt).ToList();
-            ViewBag.meteorologytime = meteorologytime;
+                Otherallmsg3.Add(otherObj);
+            }
+            ViewBag.geologytime = Otherallmsg3;
 
-            var marinetime = (from marinet in _context.MarineDetailList select marinet).ToList();
-            ViewBag.marinetime = marinetime;
+            var firetime = (from firet in _context.FireDetailList join uu in _context.users on firet.useID equals uu.ID select new { firet.ID, firet.firetime, firet.fireplace, firet.firelogitude, firet.firedimension, firet.firecasualty, firet.fireloss, firet.firearea, firet.fireslevel, firet.firedetails, firet.useID, uu.username }).ToList();
+            List<dynamic> Otherallmsg4 = new List<dynamic>();
+            foreach (var oitem in firetime)
+            {
+                dynamic otherObj = new ExpandoObject();
+                otherObj.ID = oitem.ID;
+                otherObj.firetime = oitem.firetime;
+                otherObj.fireplace = oitem.fireplace;
+                otherObj.firelogitude = oitem.firelogitude;
+                otherObj.firedimension = oitem.firedimension;
+                otherObj.firecasualty = oitem.firecasualty;
+                otherObj.fireloss = oitem.fireloss;
+                otherObj.firearea = oitem.firearea;
+                otherObj.fireslevel = oitem.fireslevel;
+                otherObj.firedetails = oitem.firedetails;
+                otherObj.userID = oitem.useID;
+                otherObj.username = oitem.username;
 
-            var quaketime = (from quaket in _context.QuakeDetailList select quaket).ToList();
-            ViewBag.quaketime = quaketime;
+                Otherallmsg4.Add(otherObj);
+            }
+            ViewBag.firetime = Otherallmsg4;
+
+            var floodtime = (from floodt in _context.FloodDetailList join uu in _context.users on floodt.userID equals uu.ID select new { floodt.ID, floodt.floodtime, floodt.floodplace, floodt.floodlogitude, floodt.flooddimension, floodt.floodlevel, floodt.floodloss, floodt.floodcasualty, floodt.floodstyle, floodt.floodarea,floodt.flooddetails, floodt.userID, uu.username }).ToList();
+            List<dynamic> Otherallmsg5 = new List<dynamic>();
+            foreach (var oitem in floodtime)
+            {
+                dynamic otherObj = new ExpandoObject();
+                otherObj.ID = oitem.ID;
+                otherObj.floodtime = oitem.floodtime;
+                otherObj.floodplace = oitem.floodplace;
+                otherObj.floodlogitude = oitem.floodlogitude;
+                otherObj.flooddimension = oitem.flooddimension;
+                otherObj.floodlevel = oitem.floodlevel;
+                otherObj.floodloss = oitem.floodloss;
+                otherObj.floodcasualty = oitem.floodcasualty;
+                otherObj.floodstyle = oitem.floodstyle;
+                otherObj.floodarea = oitem.floodarea;
+                otherObj.flooddetails = oitem.flooddetails;
+                otherObj.userID = oitem.userID;
+                otherObj.username = oitem.username;
+
+                Otherallmsg5.Add(otherObj);
+            }
+            ViewBag.floodtime = Otherallmsg5;
+
+            var meteorologytime = (from meteorologyt in _context.QixiangDetailList join uu in _context.users on meteorologyt.userID equals uu.ID select new { meteorologyt.ID, meteorologyt.qixiangtime, meteorologyt.qixiangplace, meteorologyt.qixianglogitude, meteorologyt.qixiangdimension, meteorologyt.qixiangloss, meteorologyt.qixiangarea, meteorologyt.qixiangcasualty, meteorologyt.qixiangstyle, meteorologyt.qixiangdetails, meteorologyt.userID, uu.username }).ToList();
+            List<dynamic> Otherallmsg6 = new List<dynamic>();
+            foreach (var oitem in meteorologytime)
+            {
+                dynamic otherObj = new ExpandoObject();
+                otherObj.ID = oitem.ID;
+                otherObj.qixiangtime = oitem.qixiangtime;
+                otherObj.qixiangplace = oitem.qixiangplace;
+                otherObj.qixianglogitude = oitem.qixianglogitude;
+                otherObj.qixiangdimension = oitem.qixiangdimension;
+                otherObj.qixiangloss = oitem.qixiangloss;
+                otherObj.qixiangarea = oitem.qixiangarea;
+                otherObj.qixiangcasualty = oitem.qixiangcasualty;
+                otherObj.qixiangstyle = oitem.qixiangstyle;
+                otherObj.qixiangdetails = oitem.qixiangdetails;
+                otherObj.userID = oitem.userID;
+                otherObj.username = oitem.username;
+
+                Otherallmsg6.Add(otherObj);
+            }
+            ViewBag.meteorologytime = Otherallmsg6;
+
+            var marinetime = (from marinet in _context.MarineDetailList join uu in _context.users on marinet.userID equals uu.ID select new { marinet.ID, marinet.marinetime, marinet.marineplace, marinet.marinelogitude, marinet.marinedimension, marinet.marineloss, marinet.marinecasualty, marinet.marinestyle, marinet.marinedetails, marinet.userID, uu.username }).ToList();
+            List<dynamic> Otherallmsg7 = new List<dynamic>();
+            foreach (var oitem in marinetime)
+            {
+                dynamic otherObj = new ExpandoObject();
+                otherObj.ID = oitem.ID;
+                otherObj.marinetime = oitem.marinetime;
+                otherObj.marineplace = oitem.marineplace;
+                otherObj.marinelogitude = oitem.marinelogitude;
+                otherObj.marinedimension = oitem.marinedimension;
+                otherObj.marineloss = oitem.marineloss;
+                otherObj.marinecasualty = oitem.marinecasualty;
+                otherObj.marinestyle = oitem.marinestyle;
+                otherObj.marinedetails = oitem.marinedetails;
+                otherObj.userID = oitem.userID;
+                otherObj.username = oitem.username;
+
+                Otherallmsg7.Add(otherObj);
+            }
+            ViewBag.marinetime = Otherallmsg7;
+
+            var quaketime = (from quaket in _context.QuakeDetailList join uu in _context.users on quaket.userID equals uu.ID select new { quaket.ID, quaket.quaketime, quaket.quakeplace, quaket.quakelongitude, quaket.quakedimension, quaket.quakelevel, quaket.quakedepth, quaket.quakecasualty, quaket.quakeloss,quaket.quakearea,quaket.quakedetails, quaket.userID, uu.username }).ToList();
+            List<dynamic> Otherallmsg8 = new List<dynamic>();
+            foreach (var oitem in quaketime)
+            {
+                dynamic otherObj = new ExpandoObject();
+                otherObj.ID = oitem.ID;
+                otherObj.quaketime = oitem.quaketime;
+                otherObj.quakeplace = oitem.quakeplace;
+                otherObj.quakelongitude = oitem.quakelongitude;
+                otherObj.quakedimension = oitem.quakedimension;
+                otherObj.quakelevel = oitem.quakelevel;
+                otherObj.quakedepth = oitem.quakedepth;
+                otherObj.quakecasualty = oitem.quakecasualty;
+                otherObj.quakeloss = oitem.quakeloss;
+                otherObj.quakearea = oitem.quakearea;
+                otherObj.quakedetails = oitem.quakedetails;
+                otherObj.userID = oitem.userID;
+                otherObj.username = oitem.username;
+
+                Otherallmsg8.Add(otherObj);
+            }
+            ViewBag.quaketime = Otherallmsg8;
 
             //年度
             var cropyear = (from cropy in _context.cropBiologicalDisaster select cropy).ToList();
@@ -999,6 +1155,7 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
         }
 
         //添加时刻灾害数据:农作物
+        [AllowAnonymous]
         public IActionResult CreateCrop()
         {
             return View();
@@ -1006,13 +1163,21 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [AllowAnonymous]
         public async Task<IActionResult> CreateCrop([Bind("croptime,cropplace,croplongitude,cropdimension,cropstyle,croploss,croparea,cropdetails,userID")] CropDetailsViewModel cropnewdata)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(cropnewdata);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                if(User.Identity.IsAuthenticated && User.FindFirstValue("status") == "管理员")
+                {
+                    return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>var backMana=confirm('上报成功！确定返回灾害数据管理界面，取消返回个人中心');if(backMana==true){location.href='/DisasterData/Index'}else{location.href='/PersonCenter/Index'}</script>", "text/html");
+                }
+                else
+                {
+                    return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>alert('上报成功！');location.href='/PersonCenter/Index'</script>", "text/html");
+                }
             }
             return View(cropnewdata);
 
@@ -1023,11 +1188,13 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
         }
 
         //添加时刻灾害数据:森林
+        [AllowAnonymous]
         public IActionResult CreateForest()
         {
             return View();
         }
 
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateForest([Bind("foresttime,forestplace,croplongitude,forestdimension,forestloss,foreststyle,forestarea,forestdetails,userID")] ForestDetailsViewModel forestnewdata)
@@ -1036,17 +1203,26 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
             {
                 _context.Add(forestnewdata);
                 await _context.SaveChangesAsync();
-                return Content($"<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>alert('成功添加数据');history.go(-1);</script>", "text/html");
+                if (User.Identity.IsAuthenticated && User.FindFirstValue("status") == "管理员")
+                {
+                    return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>var backMana=confirm('上报成功！确定返回灾害数据管理界面，取消返回个人中心');if(backMana==true){location.href='/DisasterData/Index'}else{location.href='/PersonCenter/Index'}</script>", "text/html");
+                }
+                else
+                {
+                    return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>alert('上报成功！');location.href='/PersonCenter/Index'</script>", "text/html");
+                }
             }
             return View(forestnewdata);
         }
 
         //添加时刻灾害数据:地质
+        [AllowAnonymous]
         public IActionResult CreateGeology()
         {
             return View();
         }
 
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateGeology([Bind("geologytime,geologyplace,geologylogitude,geologydimension,geologycasualty,geologylevel,geologyloss,geologystyle,geologyarea,geologydetails,userID")] GeologyDetailsViewModel geologynewdata)
@@ -1055,7 +1231,14 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
             {
                 _context.Add(geologynewdata);
                 await _context.SaveChangesAsync();
-                return Content($"<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>alert('成功添加数据');history.go(-1);</script>", "text/html");
+                if (User.Identity.IsAuthenticated && User.FindFirstValue("status") == "管理员")
+                {
+                    return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>var backMana=confirm('上报成功！确定返回灾害数据管理界面，取消返回个人中心');if(backMana==true){location.href='/DisasterData/Index'}else{location.href='/PersonCenter/Index'}</script>", "text/html");
+                }
+                else
+                {
+                    return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>alert('上报成功！');location.href='/PersonCenter/Index'</script>", "text/html");
+                }
             }
             else
             {
@@ -1065,11 +1248,13 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
         }
 
         //添加时刻灾害数据:火灾
+        [AllowAnonymous]
         public IActionResult CreateFire()
         {
             return View();
         }
 
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateFire([Bind("firetime,fireplace,firelogitude,firedimension,firecasualty,fireslevel,fireloss,firearea,firedetails,userID")] FireDetailsViewModel firenewdata)
@@ -1078,7 +1263,14 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
             {
                 _context.Add(firenewdata);
                 await _context.SaveChangesAsync();
-                return Content($"<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>alert('成功添加数据');history.go(-1);</script>", "text/html");
+                if (User.Identity.IsAuthenticated && User.FindFirstValue("status") == "管理员")
+                {
+                    return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>var backMana=confirm('上报成功！确定返回灾害数据管理界面，取消返回个人中心');if(backMana==true){location.href='/DisasterData/Index'}else{location.href='/PersonCenter/Index'}</script>", "text/html");
+                }
+                else
+                {
+                    return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>alert('上报成功！');location.href='/PersonCenter/Index'</script>", "text/html");
+                }
             }
             else
             {
@@ -1088,11 +1280,13 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
         }
 
         //添加时刻灾害数据:洪水
+        [AllowAnonymous]
         public IActionResult CreateFlood()
         {
             return View();
         }
 
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateFlood([Bind("floodtime,floodplace,floodlogitude,flooddimension,floodcasualty,floodlevel,floodloss,floodstyle,floodarea,flooddetails,userID")] FloodDetailsViewModel floodnewdata)
@@ -1101,7 +1295,14 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
             {
                 _context.Add(floodnewdata);
                 await _context.SaveChangesAsync();
-                return Content($"<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>alert('成功添加数据');history.go(-1);</script>", "text/html");
+                if (User.Identity.IsAuthenticated && User.FindFirstValue("status") == "管理员")
+                {
+                    return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>var backMana=confirm('上报成功！确定返回灾害数据管理界面，取消返回个人中心');if(backMana==true){location.href='/DisasterData/Index'}else{location.href='/PersonCenter/Index'}</script>", "text/html");
+                }
+                else
+                {
+                    return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>alert('上报成功！');location.href='/PersonCenter/Index'</script>", "text/html");
+                }
             }
             else
             {
@@ -1110,11 +1311,13 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
         }
 
         //添加时刻灾害数据:气象
+        [AllowAnonymous]
         public IActionResult CreateMeteorology()
         {
             return View();
         }
 
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateMeteorology([Bind("qixiangtime,qixiangplace,qixianglogitude,qixiangdimension,qixiangcasualty,qixiangloss,qixiangstyle,qixiangarea,qixiangdetails,userID")] QixiangDetailsViewModel meteorologynewdata)
@@ -1123,7 +1326,14 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
             {
                 _context.Add(meteorologynewdata);
                 await _context.SaveChangesAsync();
-                return Content($"<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>alert('成功添加数据');history.go(-1);</script>", "text/html");
+                if (User.Identity.IsAuthenticated && User.FindFirstValue("status") == "管理员")
+                {
+                    return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>var backMana=confirm('上报成功！确定返回灾害数据管理界面，取消返回个人中心');if(backMana==true){location.href='/DisasterData/Index'}else{location.href='/PersonCenter/Index'}</script>", "text/html");
+                }
+                else
+                {
+                    return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>alert('上报成功！');location.href='/PersonCenter/Index'</script>", "text/html");
+                }
             }
             else
             {
@@ -1132,11 +1342,13 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
         }
 
         //添加时刻灾害数据:海洋
+        [AllowAnonymous]
         public IActionResult CreateMarine()
         {
             return View();
         }
 
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateMarine([Bind("marinetime,marineplace,marinelogitude,marinedimension,marinecasualty,marineloss,marinestyle,marinedetails,userID")] MarineDetailsViewModel marinenewdata)
@@ -1145,7 +1357,14 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
             {
                 _context.Add(marinenewdata);
                 await _context.SaveChangesAsync();
-                return Content($"<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>alert('成功添加数据');history.go(-1);</script>", "text/html");
+                if (User.Identity.IsAuthenticated && User.FindFirstValue("status") == "管理员")
+                {
+                    return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>var backMana=confirm('上报成功！确定返回灾害数据管理界面，取消返回个人中心');if(backMana==true){location.href='/DisasterData/Index'}else{location.href='/PersonCenter/Index'}</script>", "text/html");
+                }
+                else
+                {
+                    return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>alert('上报成功！');location.href='/PersonCenter/Index'</script>", "text/html");
+                }
             }
             else
             {
@@ -1154,11 +1373,13 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
         }
 
         //添加时刻灾害数据:地震
+        [AllowAnonymous]
         public IActionResult CreateQuake()
         {
             return View();
         }
 
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateQuake([Bind("quaketime,quakeplace,quakelongitude,quakedimension,quakelevel,quakedepth,quakecasualty,quakeloss,quakearea,quakedetails,userID")] QuakeDetailsViewModel quakenewdata)
@@ -1167,7 +1388,14 @@ namespace NaturalDisasterDatabaseWebsite.Controllers
             {
                 _context.Add(quakenewdata);
                 await _context.SaveChangesAsync();
-                return Content($"<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>alert('成功添加数据');history.go(-1);</script>", "text/html");
+                if (User.Identity.IsAuthenticated && User.FindFirstValue("status") == "管理员")
+                {
+                    return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>var backMana=confirm('上报成功！确定返回灾害数据管理界面，取消返回个人中心');if(backMana==true){location.href='/DisasterData/Index'}else{location.href='/PersonCenter/Index'}</script>", "text/html");
+                }
+                else
+                {
+                    return Content("<meta http-equiv='Content-Type' content='text/html; charset = UTF-8' /><script>alert('上报成功！');location.href='/PersonCenter/Index'</script>", "text/html");
+                }
             }
             else
             {

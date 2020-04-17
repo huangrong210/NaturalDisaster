@@ -13,9 +13,10 @@
             <th style="width:8%;">伤亡(人)</th>
             <th style="width:8%;">损失(万元)</th>
             <th style="width:8%;">范围(公顷)</th>
-            <th style="width:13%;">灾害类型</th>
-            <th style="width:13%;">参考地点</th>
-            <th style="width:13%;">详情</th>
+            <th style="width:10%;">灾害类型</th>
+            <th style="width:10%;">参考地点</th>
+            <th style="width:12%;">详情</th>
+            <th style="width:6%;">上报人</th>
             <th style="width:4%;" class="noExl">操作</th>
         </tr>
     </thead>
@@ -46,6 +47,7 @@
                         <div class="newInfoTruncation newInfoTruncation3 boxId" id="boxId">@Html.Raw(System.Net.WebUtility.UrlDecode(@geologytime.geologydetails))</div>
                         <span>@Html.Raw(System.Net.WebUtility.UrlDecode(@geologytime.geologydetails))</span>
                     </td>
+                    <td>@geologytime.username</td>
                     <td class="noExl">
                         <a asp-controller="DisasterData" asp-action="EditGeology" asp-route-id="@geologytime.ID">编辑</a>
                         <a asp-controller="DisasterData" asp-action="DeleteGeology" asp-route-id="@geologytime.ID">删除</a>

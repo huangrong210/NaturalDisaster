@@ -22,7 +22,8 @@
             <th style="width:8%;">范围(公顷)</th>
             <th style="width:13%;">灾害类型</th>
             <th style="width:13%;">参考地点</th>
-            <th style="width:26%;">详情</th>
+            <th style="width:20%;">详情</th>
+            <th style="width:6%;">上报人</th>
             <th style="width:4%;" class="noExl">操作</th>
         </tr>
     </thead>
@@ -34,7 +35,7 @@
             {
                 <tr>
                     <td class="t_center">@i</td>
-                    <td style="text-align:center;"> @DateTime.Parse(@crop.croptime.ToString()).ToString("yyyy-MM-dd HH:mm:ss")  @*@crop.userID*@</td>
+                    <td style="text-align:center;">@DateTime.Parse(@crop.croptime.ToString()).ToString("yyyy-MM-dd HH:mm:ss")  @*@crop.userID*@</td>
                     <td>@crop.croplongitude</td>
                     <td>@crop.cropdimension</td>
                     <td>@crop.croploss</td>
@@ -51,6 +52,7 @@
                         <div class="newInfoTruncation newInfoTruncation3 boxId" id="boxId">@Html.Raw(System.Net.WebUtility.UrlDecode(@crop.cropdetails))</div>
                         <span>@Html.Raw(System.Net.WebUtility.UrlDecode(@crop.cropdetails))</span>
                     </td>
+                    <td>@crop.username</td>
                     <td class="noExl">
                         <a asp-controller="DisasterData" asp-action="EditCrop" asp-route-id="@crop.ID">编辑</a>
                         @*<a asp-action="" asp-route-id="@crop.ID">详情</a> |*@

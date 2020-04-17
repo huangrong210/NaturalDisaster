@@ -268,7 +268,7 @@ using NaturalDisasterDatabaseWebsite.Controllers;
             WriteLiteral("            <div class=\"item active\">\r\n                ");
             EndContext();
             BeginContext(4031, 95, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "03b7c3aafc824b709f1abc54c998497e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "268d773b9b004997989fdd790de779f5", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -348,7 +348,7 @@ WriteAttributeValue("", 4397, lunbo2.href, 4397, 12, false);
             WriteLiteral("            <div class=\"item\">\r\n                ");
             EndContext();
             BeginContext(4630, 93, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "09e973af572d4e93a425ba6b7b242580", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "53151a682e7b41368b4fc9b1f5665da5", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -436,7 +436,7 @@ WriteAttributeValue("", 4992, lunbo.href, 4992, 11, false);
                         ");
             EndContext();
             BeginContext(5850, 82, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8c235073c05742a78a48f3a9f98be221", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6765455f81744ef2a8daf389fa3fe939", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -455,7 +455,7 @@ WriteAttributeValue("", 4992, lunbo.href, 4992, 11, false);
             WriteLiteral("\r\n                    </div>\r\n                    ");
             EndContext();
             BeginContext(5982, 140, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8740a83fea2e49f48788a132f8cc59ae", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b5dd5102eaa947c4864c0d249006e38c", async() => {
                 BeginContext(6024, 94, true);
                 WriteLiteral("更多<i class=\"glyphicon glyphicon-menu-right\"></i><i class=\"glyphicon glyphicon-menu-right\"></i>");
                 EndContext();
@@ -487,7 +487,7 @@ WriteAttributeValue("", 4992, lunbo.href, 4992, 11, false);
             WriteLiteral("                                <li id=\"li1\">\r\n                                    ");
             EndContext();
             BeginContext(6431, 65, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33fc79fad76b48ad96252309d2ed2c63", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c36bb196bd534053ac473a035fe84d67", async() => {
                 BeginContext(6485, 7, false);
 #line 220 "F:\bishe\NaturalDisasterDatabaseWebsite\NaturalDisasterDatabaseWebsite\Views\Home\Knowledge.cshtml"
                                                                                     Write(e.title);
@@ -562,7 +562,7 @@ WriteAttributeValue("", 4992, lunbo.href, 4992, 11, false);
                         ");
             EndContext();
             BeginContext(7851, 82, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "48fd8bafe31d413f9d23683f91e368b5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "471079e253714ceebee72d327f6b9f9a", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -581,7 +581,7 @@ WriteAttributeValue("", 4992, lunbo.href, 4992, 11, false);
             WriteLiteral("\r\n                    </div>\r\n                    ");
             EndContext();
             BeginContext(7983, 136, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c42712a34ca843dda9d7a89ce9e4136f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b93d7d5f477a41d3bfd74b3912fdee0f", async() => {
                 BeginContext(8021, 94, true);
                 WriteLiteral("更多<i class=\"glyphicon glyphicon-menu-right\"></i><i class=\"glyphicon glyphicon-menu-right\"></i>");
                 EndContext();
@@ -613,7 +613,7 @@ WriteAttributeValue("", 4992, lunbo.href, 4992, 11, false);
             WriteLiteral("                            <li id=\"li1\">\r\n                                ");
             EndContext();
             BeginContext(8427, 67, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f4702f539b554e3494950bd193d089d8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c16fc1a30bf24e358ade915fea58d971", async() => {
                 BeginContext(8482, 8, false);
 #line 253 "F:\bishe\NaturalDisasterDatabaseWebsite\NaturalDisasterDatabaseWebsite\Views\Home\Knowledge.cshtml"
                                                                                  Write(e2.title);
@@ -680,7 +680,7 @@ WriteAttributeValue("", 4992, lunbo.href, 4992, 11, false);
             ");
             EndContext();
             BeginContext(9109, 82, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "39d73d4b83e542a4ae963b25fd961605", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c9b39605a43a4e75bd14c28d45141678", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -699,7 +699,7 @@ WriteAttributeValue("", 4992, lunbo.href, 4992, 11, false);
             WriteLiteral("\r\n        </div>\r\n        ");
             EndContext();
             BeginContext(9217, 138, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6462342ccb764ce1b5716aafab41ecf1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "10ebf5e4c1de49178a100a17424e1c74", async() => {
                 BeginContext(9257, 94, true);
                 WriteLiteral("更多<i class=\"glyphicon glyphicon-menu-right\"></i><i class=\"glyphicon glyphicon-menu-right\"></i>");
                 EndContext();
@@ -735,7 +735,7 @@ WriteAttributeValue("", 4992, lunbo.href, 4992, 11, false);
             WriteLiteral("                <li id=\"li1\" style=\"\">\r\n                    ");
             EndContext();
             BeginContext(9722, 67, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ac3e32ea3c48477fb3d6aed2f1d5a0d5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dba5ef342abd4604ae16a46e13350d7c", async() => {
                 BeginContext(9777, 8, false);
 #line 280 "F:\bishe\NaturalDisasterDatabaseWebsite\NaturalDisasterDatabaseWebsite\Views\Home\Knowledge.cshtml"
                                                                      Write(e3.title);

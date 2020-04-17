@@ -90,7 +90,7 @@ namespace NaturalDisasterDatabaseWebsite.Models
 
         //一个用户可以有很多留言
         [Display(Name ="文章留言")]
-        public ICollection<Forum_msgViewModel> forum_msgs { get; set; }        
+        public ICollection<Forum_msgViewModel> forum_msgs { get; set; }     
     }
 }
  

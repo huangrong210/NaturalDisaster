@@ -638,6 +638,23 @@
                     height: 20px;
                 }
 </style>
+<style>
+    .timeli {
+        list-style: none;
+    }
+
+    .timeli li {
+        height:35px;
+        line-height:35px;
+        cursor: pointer;
+    }
+    .timeli li a{
+        color:#3d3d3d;
+    }
+    .timeli li a:hover{
+        color: #337ab7;
+    }
+</style>
 <hr style="border: 7px solid #f1f1f1; margin:0px 0px" />
 <input id="IDNumber" type="hidden" value="@User.FindFirstValue("ID")" />
 
@@ -657,6 +674,7 @@
             {
                 <li>申请成为管理员</li>
             }
+            <li>上报时刻灾害数据</li>
         </ul>
     </div>
     <div id="content" class="col-md-10 rownavchild2">
@@ -720,6 +738,19 @@
                 </script>
             </div>
         }
+        <div class="tab">
+            <h3 class="title">上报时刻灾害数据</h3>
+            <ul class="timeli">
+                <li><a href="/DisasterData/CreateCrop">农作物生物灾害</a></li>
+                <li><a href="/DisasterData/CreateForest">森林生物灾害</a></li>
+                <li><a href="/DisasterData/CreateGeology">地质灾害</a></li>
+                <li><a href="/DisasterData/CreateFire">森林火灾</a></li>
+                <li><a href="/DisasterData/CreateFlood">洪水灾害</a></li>
+                <li><a href="/DisasterData/CreateMeteorology">气象灾害</a></li>
+                <li><a href="/DisasterData/CreateMarine">海洋灾害</a></li>
+                <li><a href="/DisasterData/CreateQuake">地震灾害</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 <i id="hidemenu" class="glyphicon glyphicon-menu-left" style="position:absolute; color:#b20b13; background:#fff; border:1px solid #999; border-top:none; font-size:13px; top:7.5%; left:7.8%;"><i class="glyphicon glyphicon-menu-left" style="position:absolute; color:#b20b13; background:#fff; border:1px solid #999; border-top:none; font-size:13px; top:1%; border-left: none; left:73.8%;"></i></i>
@@ -743,4 +774,4 @@
 <script src="~/js/PersonCenter.js"></script>
 
 @*<iframe name="iframe_a"></iframe>
-<p><a href="/PersonCenter/IndexOne" target="iframe_a">W3School.com.cn</a></p>*@
+    <p><a href="/PersonCenter/IndexOne" target="iframe_a">W3School.com.cn</a></p>*@
