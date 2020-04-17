@@ -87,7 +87,7 @@ using System.Security.Claims;
 #line default
 #line hidden
             BeginContext(209, 62, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ddbafd68cc654a9a90943ac61423f96b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2a1da0aff4ee4485abaa5f8223d09beb", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -153,7 +153,7 @@ using System.Security.Claims;
             WriteLiteral("        ");
             EndContext();
             BeginContext(1177, 92, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "883df7a213c048a3bbc9cb8cae5ec6b3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "34fc36489c1742b5929df1bdc9d3b58b", async() => {
                 BeginContext(1255, 10, true);
                 WriteLiteral("返回灾害数据管理列表");
                 EndContext();
@@ -178,7 +178,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(1279, 88, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "097bfdadde99448095940fedf5eb2cac", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aac614cec52040c5ac62ef8cd4529e1e", async() => {
                 BeginContext(1357, 6, true);
                 WriteLiteral("返回个人中心");
                 EndContext();
@@ -213,7 +213,7 @@ using System.Security.Claims;
             WriteLiteral("        ");
             EndContext();
             BeginContext(1401, 88, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "683ea034879b4d4f965b3879131a148e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "369bb37dc94c4042928e4f770066ee7e", async() => {
                 BeginContext(1479, 6, true);
                 WriteLiteral("返回个人中心");
                 EndContext();
@@ -246,12 +246,12 @@ using System.Security.Claims;
             WriteLiteral("</div>\r\n\r\n<hr style=\"margin-top:15px;\" />\r\n<div style=\"margin:0 auto; text-align:center;\" class=\"forestform\">\r\n    ");
             EndContext();
             BeginContext(1613, 2954, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c7cbc3b040604e938e26038a14433348", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0a6301ef1acf401cb65cf4fb02b1dc81", async() => {
                 BeginContext(1699, 10, true);
                 WriteLiteral("\r\n        ");
                 EndContext();
                 BeginContext(1709, 66, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c968cb326594a70a367c2ec0ba506b1", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9d0d789c7aa14f79a214b8f22ce9569b", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper>();

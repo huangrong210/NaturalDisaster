@@ -75,7 +75,7 @@ using NaturalDisasterDatabaseWebsite.Controllers;
             WriteLiteral("            <div class=\"comment-list-box\">\r\n                <div class=\"img-avatar-box\">");
             EndContext();
             BeginContext(338, 51, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "642027e7ce2c4173b904fdd70fea27d9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "70a4dc91924a4636b2ec99c4867619ad", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -122,7 +122,7 @@ AddHtmlAttributeValue("", 358, p.img, 358, 6, false);
             WriteLiteral("</span>\r\n                            <span>回复了你的文章</span>\r\n                            ");
             EndContext();
             BeginContext(966, 111, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dbd36a996a324d1aa5f330cd5777c4fd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d5c9a7bd5734624b43e79ff68d7171a", async() => {
                 BeginContext(1066, 7, false);
 #line 17 "F:\bishe\NaturalDisasterDatabaseWebsite\NaturalDisasterDatabaseWebsite\Views\PersonCenter\MyComment.cshtml"
                                                                                                                           Write(p.title);
@@ -164,7 +164,7 @@ AddHtmlAttributeValue("", 358, p.img, 358, 6, false);
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"opt-box\">\r\n                            ");
             EndContext();
             BeginContext(1186, 161, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eaa9afef26ac420f832630f979fe7529", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b8a113c6a9f84024bce2ed58316ce452", async() => {
                 BeginContext(1341, 2, true);
                 WriteLiteral("删除");
                 EndContext();
@@ -270,7 +270,7 @@ AddHtmlAttributeValue("", 358, p.img, 358, 6, false);
             WriteLiteral("</span>的文章</span>\r\n                            ");
             EndContext();
             BeginContext(4074, 110, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e7d4e01326cb4da498dc78a82cfe5079", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c7834941d2c3458bb30d0b13959e03a9", async() => {
                 BeginContext(4173, 7, false);
 #line 51 "F:\bishe\NaturalDisasterDatabaseWebsite\NaturalDisasterDatabaseWebsite\Views\PersonCenter\MyComment.cshtml"
                                                                                                                          Write(q.title);
@@ -312,7 +312,7 @@ AddHtmlAttributeValue("", 358, p.img, 358, 6, false);
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"opt-box\">\r\n                            ");
             EndContext();
             BeginContext(4293, 160, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "23e5fd331c1145dcaa624315ca77d516", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dd5cfbff7afd45d7bee02cf4210a04d1", async() => {
                 BeginContext(4447, 2, true);
                 WriteLiteral("删除");
                 EndContext();

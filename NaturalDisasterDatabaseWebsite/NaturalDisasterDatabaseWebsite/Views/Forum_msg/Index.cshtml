@@ -50,6 +50,13 @@
     .btn:focus, .btn:active:focus {
         outline: none;
     }
+    .rawimg p{
+        margin-bottom:0px;
+    }
+    .rawimg p img {
+        width: 25px;
+        height: 25px;
+    }
 </style>
 <p class="msgmanage">论坛管理</p>
 @*<div class="createmsg">
@@ -98,8 +105,12 @@
                     <td>
                         @i
                     </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.comment)
+                    <td style="text-align:left;">
+                        @*@Html.DisplayFor(modelItem => item.comment)*@
+                        <div class="text-overflow rawimg" style="overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;word-break: break-all;vertical-align:middle;">
+                            @*@Html.DisplayFor(modelItem => item.wz_content)*@
+                            @Html.Raw(System.Net.WebUtility.UrlDecode(@item.comment))
+                        </div>
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.comment_time)
@@ -107,7 +118,7 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.user.username)
                     </td>
-                    <td>
+                    <td style="text-align:left;">
                         @Html.DisplayFor(modelItem => item.essay.title)
                     </td>
                     @*<td>

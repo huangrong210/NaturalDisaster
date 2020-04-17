@@ -135,21 +135,31 @@
                         @Html.DisplayFor(modelItem => item.author)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.source)
+                        <div class="text-overflow">
+                            @Html.DisplayFor(modelItem => item.source)
+                        </div>
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.fb_time)
                     </td>
                     <td class="td_noAlign">
-                        <div class="text-overflow">
-                            @Html.DisplayFor(modelItem => item.wz_content)
+                        <div class="text-overflow" style="overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        word-break: break-all;height:40px;">
+                            @*@Html.DisplayFor(modelItem => item.wz_content)*@
+                            @Html.Raw(System.Net.WebUtility.UrlDecode(@item.wz_content))
                         </div>
                     </td>
                     @*<td class="overflow-img">
                         @Html.DisplayFor(modelItem => item.wz_img)
                     </td>*@
                     <td>
-                        @Html.DisplayFor(modelItem => item.wz_style)
+                        <div class="text-overflow">
+                            @Html.DisplayFor(modelItem => item.wz_style)
+                        </div>
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.state)

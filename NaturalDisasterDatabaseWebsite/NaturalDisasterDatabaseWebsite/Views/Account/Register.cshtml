@@ -120,7 +120,6 @@
                     <option value="男">男</option>
                     <option value="女">女</option>
                 </select>
-                <input asp-for="sex" style="height:0px; width:0px; padding:0;margin:0; outline:none; border:none;" id="sex" />
                 <span asp-validation-for="sex" class="text-danger bcent"></span>
             </div>
             <div class="input-group">
@@ -211,12 +210,6 @@
 </script>
 <script src="~/js/jquery-3.4.1.min.js"></script>
 <script src="~/js/picture.js"></script>
-<div class="input-group">
-    @*以asp-开头的属性是TagHelper标记帮助程序，也称TagHelper 标签助手*@
-    <label asp-for="username" class="label"><i class="glyphicon glyphicon-user" style="color:#FDCBA6;"></i></label>
-    <input asp-for="username" type="text" id="isexist" class="form-control" placeholder="请设置账号" />
-    <span asp-validation-for="username" class="text-danger bcent" id="msg1"></span>
-</div>
 <script>
     $("#isexist").blur(function () { //账号输入框失焦时执行
         var username = $("#isexist").val(); //获取账号输入框的value值

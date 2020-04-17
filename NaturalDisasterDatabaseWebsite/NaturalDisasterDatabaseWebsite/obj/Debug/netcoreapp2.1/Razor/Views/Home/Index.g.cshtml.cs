@@ -88,7 +88,7 @@ using System.Security.Claims;
 #line default
 #line hidden
             BeginContext(77, 53, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abbe422ea5ad487bb94a72aeba4a5864", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e2addc9a8eab4ca6a3be15df5dce1908", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -106,7 +106,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(132, 55, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a065f71eda924f70baca33fccab5dfc1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cca8ca8f554f42cf89350602bae7e237", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -124,7 +124,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n<script src=\"https://api.map.baidu.com/api?v=2.0&ak=b0tF4BlZ5Mrmo9DU71GDF6eFUvpAwNtB\"></script>\r\n");
             EndContext();
             BeginContext(286, 96, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "bd3d9f3090fb42e1b64e5b7a88c9c0d9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "57984ac54ba34532b7e781da80e9c0c7", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -143,7 +143,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(384, 51, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e7db75f64be944ca8c794ae816a3fb19", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47ad1fb2361d4f479a0e332f23440c1e", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -161,7 +161,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(437, 85, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "58143e0e11d9485a9264c17713716202", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "568bdd34676446b4a29b94389739cec9", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -179,7 +179,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(524, 99, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "091548e0ae114bf69fa40068ef074c14", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f80302c3cf19427380ba796173854b1c", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -197,7 +197,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(625, 75, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d7a01e1405734765a84d6f1903e5a493", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d38fa920e3c40689f8b175c5184a8cc", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -366,7 +366,7 @@ using System.Security.Claims;
                 ");
             EndContext();
             BeginContext(4551, 73, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "28b1776ff90c4fb79e0f2c07a54dcf47", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "03752db7fb9e4eb5b65e94be1a95f4c7", async() => {
                 BeginContext(4608, 7, true);
                 WriteLiteral("请选择灾害类别");
                 EndContext();
@@ -395,7 +395,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(4642, 40, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "05993c9877a243708b9e8d46ab71b5bd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "73ce8eea44724b70913b971b6479e7a4", async() => {
                 BeginContext(4666, 7, true);
                 WriteLiteral("农作物生物灾害");
                 EndContext();
@@ -417,7 +417,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(4700, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "24eb714af09940c69d9fa38d59697223", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6e5ae90ab0d7453db9a1a4fe4354eee4", async() => {
                 BeginContext(4723, 6, true);
                 WriteLiteral("森林生物灾害");
                 EndContext();
@@ -439,7 +439,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(4756, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "114d565c0d82491da9ae577a6eb6ffa4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3b0ba497e0404c958444e32298e9f1b4", async() => {
                 BeginContext(4777, 4, true);
                 WriteLiteral("地质灾害");
                 EndContext();
@@ -461,7 +461,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(4808, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "598bbd06cf7c48f29e51eaa1d77e3328", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "44b5a199c545444c91d8b52b4fb27810", async() => {
                 BeginContext(4829, 4, true);
                 WriteLiteral("森林火灾");
                 EndContext();
@@ -483,7 +483,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(4860, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6d39fa1ef7a349658b7fcb2254182363", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9744af44d3de4bc08b075f081282ffc9", async() => {
                 BeginContext(4881, 4, true);
                 WriteLiteral("洪水灾害");
                 EndContext();
@@ -505,7 +505,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(4912, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d7c7c7b1f8f4fb89881e9a373776005", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9f26dd20da41484e9280f0fd058b5483", async() => {
                 BeginContext(4933, 4, true);
                 WriteLiteral("气象灾害");
                 EndContext();
@@ -527,7 +527,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(4964, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec76b67d8c1e416a8a76f2a94fcaaca0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fad817bff72546b69908115cfcb75c10", async() => {
                 BeginContext(4985, 4, true);
                 WriteLiteral("海洋灾害");
                 EndContext();
@@ -549,7 +549,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(5016, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e90ab01e62a54bc98c4ad173401520e5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "69c262d5a1cf44d3ac21a96193a67b3f", async() => {
                 BeginContext(5037, 4, true);
                 WriteLiteral("地震灾害");
                 EndContext();
